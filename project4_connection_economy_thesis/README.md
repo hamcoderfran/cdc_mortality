@@ -10,9 +10,11 @@ This folder combines **public survey data**, **healthcare utilization forecasts*
 
 | File | Description |
 |---|---|
-| [`THESIS_EVALUATION.md`](THESIS_EVALUATION.md) | Full research paper (~7,500 words): abstract, methods, data results, literature, critical claim evaluation, graded verdict, investment implications |
-| [`data/`](data/) | Stock prices, survey stats, sector forecasts (CSV) |
-| [`results/thesis_evidence_summary.json`](results/thesis_evidence_summary.json) | Machine-readable evidence summary |
+| [`THESIS_EVALUATION.md`](THESIS_EVALUATION.md) | Full research paper (~7,500 words): hospital vs experience stock thesis — critical evaluation |
+| [`GENZ_ALPHA_STOCK_ANALYSIS.md`](GENZ_ALPHA_STOCK_ANALYSIS.md) | **Gen Z/Alpha 10–20yr stock analysis** (~7,000 words): drinking decline, AI skepticism, wellness, scoring 28 tickers |
+| [`data/`](data/) | Stock prices, survey stats, sector forecasts, Gen Z/Alpha scores (CSV) |
+| [`results/thesis_evidence_summary.json`](results/thesis_evidence_summary.json) | Machine-readable connection-economy summary |
+| [`results/genz_alpha_rankings.json`](results/genz_alpha_rankings.json) | Top/bottom Gen Z/Alpha stock rankings |
 
 ## Headline verdict
 
@@ -33,7 +35,23 @@ pip install yfinance pandas
 cd project4_connection_economy_thesis
 python scripts/01_download_stock_data.py
 python scripts/02_build_evidence_tables.py
+python scripts/03_build_genz_behavior_data.py
+python scripts/04_score_genz_alpha_stocks.py
 ```
+
+## Gen Z / Gen Alpha stock analysis (new)
+
+**Top scored tickers (100-point scale):** LYV (89), PLNT (82), MNST (81), LULU/ELF (79), DUOL (78)
+
+**Structural avoids:** TAP (40), BUD/STZ (43) — alcohol volume headwinds
+
+**Key behavioral drivers:**
+- 65% of Gen Z plan to drink less; 39% dry all year (NCSolutions)
+- 31% angry about AI, 22% excited — skepticism rising (Gallup 2026)
+- 41% of U.S. wellness spend from Gen Z/millennials (McKinsey)
+- $12T Gen Z spending power by 2030 (NIQ)
+
+See [`GENZ_ALPHA_STOCK_ANALYSIS.md`](GENZ_ALPHA_STOCK_ANALYSIS.md) for full thematic deep dives, scenario analysis, and critical caveats.
 
 ## Stock baskets analyzed
 
