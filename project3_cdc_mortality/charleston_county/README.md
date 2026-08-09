@@ -216,7 +216,8 @@ Open **`results/maps/index.html`** in a browser for 15 tract-level choropleth ma
 
 ```
 charleston_county/
-├── README.md                          ← this file
+├── README.md                          ← overview & issue briefs
+├── RESEARCH_PAPER.md                  ← full academic paper with critical analysis
 ├── scripts/
 │   ├── 01_download_data.py            ← PLACES, SVI, TIGER boundaries, benchmarks
 │   ├── 02_analyze_tracts.py           ← merge, correlations, issue metrics
