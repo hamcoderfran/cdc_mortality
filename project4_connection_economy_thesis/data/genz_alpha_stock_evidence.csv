@@ -1,0 +1,59 @@
+ticker,claim,evidence_tier,metric,source,url,supports_factor,verified
+LYV,Live Nation sold 130M+ concert tickets through July 2025 (+6% YoY),A,130000000 tickets,Live Nation Q2 2025 earnings (SEC 8-K),https://www.prnewswire.com/news-releases/live-nation-entertainment-reports-second-quarter-2025-results-302524774.html,behavioral_fit,yes
+LYV,Concert deferred revenue $5.1B in Q2 2025 (+25% YoY),A,$5.1B deferred revenue,Live Nation Q2 2025 earnings,https://content.equisolve.net/livenationentertainment/sec/0001335258-25-000127/for_pdf/lyv-2025q2xex991er.htm,demographic_tailwind,yes
+LYV,74% of Gen Z attended a concert/live show in past year,B,74%,Spotify Culture Next 2024,https://wwd.com/business-news/business-features/spotify-culture-next-gen-z-in-person-experiences-1236673797/,behavioral_fit,yes
+LYV,Two-thirds of Gen Z traveled out-of-state/internationally for events,B,67%,eMarketer citing BofA 2025 survey,https://www.emarketer.com/content/2025-will-record-year-concertgoing,cultural_momentum,yes
+LYV,Live performance is structurally irreplaceable by AI (investment inference),C,,Analyst inference from Gallup AI anger + IRL demand surveys,,ai_skepticism_benefit,no
+LYV,DOJ antitrust litigation is material execution risk,B,,Public court filings / DOJ press coverage,,execution_risk,yes
+PLNT,65% of Gen Z feel more socially connected in wellness settings vs nightlife,B,65%,Harris Poll Gen Z Weekend Report 2026,https://theharrispoll.com/wp-content/uploads/2026/07/The-Gen-Z-Weekend-Report-July-2026.pdf,behavioral_fit,yes
+PLNT,Planet Fitness membership skews younger but no published Gen Z share in 10-K,C,,Analyst inference from pricing model ($10-25/mo),,demographic_tailwind,no
+PLNT,Low-cost gym as alcohol-substitute Third Space,C,,Analyst inference linking Harris wellness data to venue substitution,,alcohol_shift_benefit,no
+MNST,Monster ranked #1 preferred energy drink among U.S. teens,B,#1 energy drink,Piper Sandler Taking Stock With Teens Fall 2024,https://www.pipersandler.com/sites/default/files/document/TSWT_Fall24_Infographic.pdf,cultural_momentum,yes
+MNST,Teens prefer energy drinks (39%) over coffee (31%) and soda (30%),B,39%,Piper Sandler Fall 2024,https://www.pipersandler.com/sites/default/files/document/TSWT_Fall24_Infographic.pdf,behavioral_fit,yes
+MNST,Energy drinks substitute for alcohol in social settings,C,,Analyst inference; Circana shows NA spirits trial (42%) but not MNST-specific,https://www.circana.com/post/sober-curious-nation-alcohol-survey,alcohol_shift_benefit,no
+MNST,Historical price CAGR 2019-2026 computed from Yahoo Finance,A,18.83%,yfinance (script 04),,competitive_moat_10yr,yes
+CELH,Celsius ranked #3 preferred energy drink among U.S. teens,B,#3 energy drink,Piper Sandler Fall 2024,https://www.pipersandler.com/sites/default/files/document/TSWT_Fall24_Infographic.pdf,cultural_momentum,yes
+CELH,Historical price CAGR 2019-2026,A,52.08%,yfinance (script 04),,behavioral_fit,yes
+CELH,Fitness-forward positioning captures wellness-over-alcohol shift,C,,Analyst inference from McKinsey wellness + Circana sober-curious data,,alcohol_shift_benefit,no
+LULU,lululemon #3 apparel brand among upper-income teens (lost 4pp mindshare),B,#3 apparel,Piper Sandler Fall 2024,https://www.pipersandler.com/news/piper-sandler-completes-48th-semi-annual-taking-stock-teensr-survey,cultural_momentum,yes
+LULU,Community run clubs drive social fitness identity,C,,Company marketing + analyst inference,,behavioral_fit,no
+ELF,e.l.f. #1 cosmetics brand among female teens at 35% share (Fall 2024),A,35%,Piper Sandler Fall 2024 infographic,https://www.pipersandler.com/sites/default/files/document/TSWT_Fall24_Infographic.pdf,cultural_momentum,yes
+ELF,e.l.f. maintained #1 cosmetics brand Spring-Fall 2025,B,#1 cosmetics,Piper Sandler Spring/Fall 2025 releases,https://www.pipersandler.com/news/piper-sandler-completes-50th-semi-annual-teen-survey,demographic_tailwind,yes
+ELF,Historical price CAGR 2019-2026,A,36.7%,yfinance (script 04),,behavioral_fit,yes
+DUOL,Gen Z weekly generative AI use steady at 51% but excitement fell to 22%,B,51% use / 22% excited,Gallup/Walton 2026,https://news.gallup.com/poll/708224/gen-adoption-steady-skepticism-climbs.aspx,ai_skepticism_benefit,yes
+DUOL,Human skill-building apps benefit from AI learning distrust,C,,Analyst inference; no DUOL-specific cohort study,,behavioral_fit,no
+ONON,Running club culture aligns with Gen Z fitness-as-social,C,,Analyst inference from ON marketing + McKinsey wellness,,cultural_momentum,no
+RBLX,Roblox largest dedicated gaming platform for users under 13,A,U13 platform claim,Roblox Feb 2026 shareholder letter / 8-K,https://about.roblox.com/newsroom/2026/02/moving-beyond-self-reported-age,demographic_tailwind,yes
+RBLX,35% of age-checked DAUs are under 13 (Jan 2026),A,35% U13,Roblox shareholder letter Feb 2026,https://about.roblox.com/newsroom/2026/02/moving-beyond-self-reported-age,behavioral_fit,yes
+RBLX,39.7M daily active users under 13 in Q2 2025,A,39700000 U13 DAU,Statista citing Roblox filings,https://www.statista.com/statistics/1190309/daily-active-users-worldwide-roblox/,demographic_tailwind,yes
+RBLX,Piper Sandler: Roblox active teen usage 46% (Fall 2024),B,46%,Piper Sandler Fall 2024,https://www.pipersandler.com/sites/default/files/document/TSWT_Fall24_Infographic.pdf,cultural_momentum,yes
+RBLX,Historical price CAGR 2019-2026 underperformed despite demographic fit,A,-7.71%,yfinance (script 04),,execution_risk,yes
+ETSY,63% of Gen Z plan vintage/upcycled holiday purchases,B,63%,PwC Holiday Outlook 2025,https://www.pwc.com/us/en/industries/consumer-markets/library/gen-z-consumer-trends.html,behavioral_fit,yes
+ETSY,Handmade/authentic goods benefit from AI-content skepticism,C,,Analyst inference from Gallup AI anger data,,ai_skepticism_benefit,no
+PEP,Piper Sandler: Lays #2 preferred snack among teens,B,#2 snack,Piper Sandler Fall 2024,https://www.pipersandler.com/sites/default/files/document/TSWT_Fall24_Infographic.pdf,behavioral_fit,yes
+PEP,NA beverage portfolio (bubly/Gatorade) benefits from alcohol moderation,C,,Sector inference from NIQ/Circana; no PEP youth share data,,alcohol_shift_benefit,no
+KDP,Mocktail/NA RTD market projected $8.3B to $12.2B by 2030,B,5.7% CAGR,Grand View Research,https://www.grandviewresearch.com/industry-analysis/ready-to-drink-mocktails-market-report,alcohol_shift_benefit,yes
+KDP,KDP distribution scale for NA RTD,C,,Analyst inference from sector TAM + company portfolio,,demographic_tailwind,no
+BKNG,48% of U.S. travelers 18-34 say live event was major destination factor,B,48%,Arival 2024 event travel report,https://www.traveldailynews.com/statistics-trends/travel-experiences-market-grows-despite-flat-spending/,behavioral_fit,yes
+BKNG,Travel experiences market $271B in 2025 (+17% YoY),B,$271B,Arival/Phocuswright 2025,https://www.traveldailynews.com/statistics-trends/travel-experiences-market-grows-despite-flat-spending/,demographic_tailwind,yes
+EXPE,Event-driven travel booking attach rate growing,C,,Analyst inference from Arival sector data,,behavioral_fit,no
+TJX,Gen Z +8pp more likely to buy secondhand vs average,B,+8pp,GWI 2025,https://www.gwi.com/blog/gen-z-spending-habits,behavioral_fit,yes
+TJX,TJX off-price model aligns with thrift values,C,,Analyst inference from GWI secondhand data,,cultural_momentum,no
+ROST,Gen Z 63% plan vintage/upcycled purchases (sector proxy),B,63%,PwC 2025,https://www.pwc.com/us/en/industries/consumer-markets/library/gen-z-consumer-trends.html,behavioral_fit,yes
+ACHC,Adolescent MH ED visits declined from pandemic peaks by fall 2022,A,At/below 2019 baseline,CDC MMWR 2023,https://www.cdc.gov/mmwr/volumes/72/wr/mm7240a1.htm,behavioral_fit,yes
+ACHC,Youth loneliness (51% weekend) does not directly prove ACHC demand,C,,Analyst inference; loneliness literature strongest in elderly,,demographic_tailwind,no
+HIMS,Gen Z-native telehealth brand positioning,C,,Marketing claim; limited independent youth share data,,cultural_momentum,no
+CRWD,Gen Z AI anxiety (42%) drives incremental cybersecurity spend,C,,Analyst inference; enterprise security demand not youth-driven,,ai_skepticism_benefit,no
+CRWD,Historical price CAGR 2019-2026,A,42.57%,yfinance (script 04),,competitive_moat_10yr,yes
+PANW,AI attack-surface expansion drives security demand,B,,Industry analyst consensus (Gartner/IDC); not Gen-Z-specific,,ai_skepticism_benefit,partial
+TTWO,Gen Z +36pp more likely to buy in-game items vs average,B,+36pp,GWI 2025,https://www.gwi.com/blog/gen-z-spending-habits,behavioral_fit,yes
+TTWO,GTA VI cycle is company-specific catalyst not Gen Z thesis,C,,Analyst inference,,cultural_momentum,no
+NVDA,Gen Z uses AI weekly (51%) despite anger — infra layer wins,B,51%,Gallup 2026,https://news.gallup.com/poll/708224/gen-adoption-steady-skepticism-climbs.aspx,behavioral_fit,yes
+NVDA,Historical price CAGR 2019-2026,A,73.75%,yfinance (script 04),,competitive_moat_10yr,yes
+GOOGL,Gen Z AI anger poses reputational risk to AI-native platforms,C,,Analyst inference,,execution_risk,no
+TAP,Total U.S. beer volume declined 2.9% in 2024 (scan data),A,-2.9% volume,NIQ 2024 Beverage Alcohol Year in Review,https://nielseniq.com/global/en/insights/analysis/2025/2024-beverage-alcohol-year-in-review/,alcohol_shift_benefit,yes
+TAP,Craft beer participation among 21-34 fell 7pp since 2019,B,-7pp,CGA by NIQ on-premise 2025,https://nielseniq.com/global/en/insights/analysis/2025/how-craft-beer-can-reach-gen-z/,behavioral_fit,yes
+BUD,Beer category volume/value declines in 2024-2025,A,Volume softness,NIQ 2024-2025 BevAl reviews,https://nielseniq.com/global/en/insights/analysis/2025/2024-beverage-alcohol-year-in-review/,alcohol_shift_benefit,yes
+STZ,Same beer/spirits category headwinds as sector,B,,NIQ sector data; STZ-specific youth share not isolated,,behavioral_fit,partial
+SAM,Transitional alcohol+NA portfolio; no strong Gen Z affinity data,C,,Analyst inference,,cultural_momentum,no
+VST,Corporate restructuring adds execution uncertainty beyond Gen Z thesis,C,,Analyst inference,,execution_risk,no

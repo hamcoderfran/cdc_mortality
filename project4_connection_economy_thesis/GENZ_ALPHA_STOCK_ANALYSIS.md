@@ -3,9 +3,25 @@
 **Companion to:** `THESIS_EVALUATION.md` (connection economy thesis)  
 **Date:** August 2026  
 **Horizon:** 2026–2046 (10–20 years)  
-**Method:** Behavioral survey synthesis + market forecasts + 7-factor thematic stock scoring + historical performance validation
+**Method:** Behavioral survey synthesis + market forecasts + 7-factor thematic stock scoring + historical performance validation  
+**Evidence audit:** See [`EVIDENCE_AUDIT.md`](EVIDENCE_AUDIT.md) — **not all conclusions are equally data-backed**
 
 ---
+
+## Evidence Quality (Read First)
+
+| Component | Tier | Confidence |
+|---|---|---|
+| Macro behavioral trends (alcohol ↓, AI skepticism, loneliness, wellness) | A/B | **High** — federal surveys + cited industry polls |
+| Sector headwinds/tailwinds (beer volume, mocktail TAM, experiences market) | B | **Medium–High** — NIQ scan data, industry forecasts |
+| Historical stock CAGRs (2019–2026) | A | **High** — computed from Yahoo Finance |
+| Per-ticker youth brand affinity (ELF, MNST, RBLX, LYV ops data) | A/B | **Medium–High** — Piper Sandler, SEC filings |
+| Composite scores & "Top 10" rankings | C | **Low for prediction** — expert judgment, not backtested |
+| 10–20 year "highest likelihood to rise" | C | **Not validated** — thematic hypothesis only |
+
+**Bottom line:** This document is suitable for **thematic screening**, not conviction-weighted stock picking without additional valuation and cohort-revenue analysis.
+
+Per-ticker claim citations: `data/genz_alpha_stock_evidence.csv`
 
 ## Executive Summary
 
@@ -14,6 +30,8 @@ Generation Z (born ~1997–2012) and Generation Alpha (born ~2010–2024) will c
 This analysis scores **28 publicly traded equities** across eight thematic clusters using seven weighted factors (behavioral fit, demographic tailwind, cultural momentum, alcohol-shift benefit, AI-skepticism benefit, 10-year moat, execution risk). Results are cross-validated against 2019–2026 historical returns.
 
 ### Top 10 stocks by composite alignment score (100-point scale)
+
+*Scores are Tier C analyst judgment — see evidence grades in [`EVIDENCE_AUDIT.md`](EVIDENCE_AUDIT.md)*
 
 | Rank | Ticker | Company | Theme | Score | Key driver |
 |---:|---|---|---|---:|---|
@@ -59,7 +77,9 @@ This analysis scores **28 publicly traded equities** across eight thematic clust
 | Gen Z who tried non-alcoholic spirits | **42%** | Circana |
 | Americans trying to drink less (all ages) | **49%** (+44% since 2023) | NCSolutions |
 
-**Mechanism:** Mental health prioritization (86% say mental health as important as physical health when deciding to drink), financial pressure, and social media normalization of sobriety. Gen Z consumes an estimated **20–30% less alcohol per capita** than millennials at the same age.
+**Mechanism:** Mental health prioritization (86% say mental health as important as physical health when deciding to drink — Circana), financial pressure, and social media normalization of sobriety. Federal data confirms the trend: SAMHSA NSDUH shows young adults 18–25 past-month alcohol use fell from **50.9% (2021) to 47.5% (2024)**; Monitoring the Future shows 12th-grade past-year alcohol use at **41.7%** vs **75% in 1997**.
+
+*Removed:* prior unsourced claim of "20–30% less alcohol per capita vs millennials" — not found in primary literature with that exact figure.
 
 **Market response:** RTD mocktail market projected **$8.3B → $12.2B by 2030** (5.7% CAGR); non-alcoholic spirits **$7.2B → $11.0B** (7.2% CAGR). Retailers expanding dedicated NA shelf space.
 
@@ -149,7 +169,7 @@ Each stock receives scores of **1–5** on seven dimensions:
 
 Composite score = weighted sum × 20, scaled to **0–100**.
 
-**Limitations:** Scores are expert-judgment informed by data, not regression output. They do not incorporate current valuation (P/E), balance sheet, or macro rates. A high score ≠ buy recommendation.
+**Limitations:** Scores are expert-judgment informed by data (**Tier C**), not regression output. They do not incorporate current valuation (P/E), balance sheet, or macro rates. A high score ≠ buy recommendation. Several rationales (e.g., MNST as alcohol substitute, CRWD from AI skepticism) are **sector inferences** without ticker-level causal proof — see `data/genz_alpha_stock_evidence.csv`.
 
 Full scores: `data/genz_alpha_stock_scores.csv`
 
@@ -185,8 +205,9 @@ Full scores: `data/genz_alpha_stock_scores.csv`
 **Top picks:**
 
 **Monster (MNST) — Score 81**
-- Dominant Gen Z energy brand; convenience store social consumption
-- 18.8% CAGR 2019–2026 validates market preference
+- **Data-backed:** #1 preferred energy drink among U.S. teens (Piper Sandler Fall 2024); teens prefer energy drinks (39%) over coffee (31%)
+- **Inferred (Tier C):** Alcohol-substitution thesis — not brand-specific
+- Historical price CAGR 18.8% (2019–2026) validates market preference but not forward causality
 
 **Celsius (CELH) — Score 76**
 - Fitness-forward positioning; 52% historical CAGR
@@ -204,8 +225,8 @@ Full scores: `data/genz_alpha_stock_scores.csv`
 **Top picks:**
 
 **CrowdStrike (CRWD) / Palo Alto (PANW) — Score 68 each**
-- AI expands attack surface; 42% anxiety about AI creates security urgency
-- 42%+ historical CAGRs (2019–2026) reflect market not sentiment
+- **Data-backed:** Historical CAGRs 43% / 39% (2019–2026); enterprise security TAM growth
+- **Inferred (Tier C):** Gen Z AI anxiety → security spend — buyers are enterprises, not consumers
 
 **Duolingo (DUOL) — Score 78**
 - Gamified human skill acquisition; Gen Z doubts AI for learning (46% believe AI helps learning, down 7 pp)
@@ -232,8 +253,8 @@ Full scores: `data/genz_alpha_stock_scores.csv`
 **Thesis:** PwC: Gen Z cutting spending 13% (2025) but still buying "affordable affluence" — ELF cosmetics, resale sneakers, dupes.
 
 **ELF Beauty (ELF) — Score 79**
-- 36.7% historical CAGR; TikTok-native; trades prestige for access
-- McKinsey: younger consumers twice as likely to try new wellness/beauty brands
+- **Data-backed:** #1 cosmetics brand among female teens at 35% share, +6pp YoY (Piper Sandler Fall 2024); maintained #1 through Fall 2025
+- 36.7% historical CAGR; TikTok-native distribution
 
 **TJX (TJX) / Ross (ROST) — Scores 71/68**
 - Off-price treasure hunt aligns with thrift values
@@ -307,6 +328,8 @@ High alignment scores did not uniformly predict past returns — valuation, timi
 
 ## 5. Scenario Analysis (2036)
 
+*Illustrative hypotheses only (Tier C) — probabilities are not econometrically estimated.*
+
 | Scenario | Probability | Winners | Losers |
 |---|---|---|---|
 | **Base: "Authentic premium"** | 50% | LYV, PLNT, MNST, ELF, ETSY | TAP, BUD |
@@ -315,9 +338,11 @@ High alignment scores did not uniformly predict past returns — valuation, timi
 
 ---
 
-## 6. Recommended Portfolio Construction (Illustrative, Not Advice)
+## 6. Thematic Screening Framework (Illustrative, Not Advice)
 
-### Tier 1 — Core Gen Z/Alpha alignment (highest scores + behavioral clarity)
+*Tier C portfolio construction — for research organization only*
+
+### Tier 1 — Strongest ticker-level evidence + thematic fit
 - **LYV** — irreplaceable human experience
 - **MNST** — alcohol substitution ritual
 - **PLNT** — affordable wellness Third Space
@@ -344,21 +369,30 @@ High alignment scores did not uniformly predict past returns — valuation, timi
 
 Gen Z and Gen Alpha are reshaping consumer markets through **simultaneous, sometimes contradictory forces**: drinking less but socializing more (in different venues); using AI but resenting it; spending less overall but splurging on wellness and experiences that feel **authentic and shareable**.
 
-The highest-probability 10–20 year equity themes are:
+The highest-**evidence** 10–20 year equity themes are:
 
-1. **Human irreplaceability** — live events, physical community, in-person care
-2. **Alcohol substitution** — functional and NA beverages, not beer
-3. **Affordable affluence** — ELF, off-price retail, accessible wellness (PLNT > premium luxury)
-4. **Security and authenticity** — cybersecurity, handmade marketplaces, verified human skills
-5. **Gen Alpha platforms** — RBLX and gaming ecosystems as the next cohort matures
+1. **Human irreplaceability** — live events, physical community, in-person care *(Tier B surveys + Tier A LYV ops data)*
+2. **Alcohol substitution at category level** — functional/NA beverages over beer *(Tier A/B: NSDUH, NIQ beer −2.9%)*
+3. **Affordable affluence with proven youth share** — ELF (#1 teen cosmetics), off-price retail *(Tier A/B: Piper Sandler, GWI)*
+4. **Gen Alpha platform exposure** — RBLX (35% age-checked DAUs under 13) *(Tier A: SEC filing)*
 
-The thesis that these forces will lift **hospital stocks** (per the parent connection-economy analysis) remains weak. **Behavioral health outpatient** (ACHC) aligns; acute hospital operators do not.
+Themes with **weaker ticker-level proof:** AI skepticism → cybersecurity; loneliness → hospital/behavioral chains.
 
-**Overall Gen Z/Alpha stock framework grade: B+** — strong behavioral data, clear sector winners/losers, but requires active selection within themes and continuous cohort monitoring as Gen Z ages and Gen Alpha matures.
+The thesis that these forces will lift **hospital stocks** (per the parent connection-economy analysis) remains weak. **Behavioral health outpatient** (ACHC) has partial alignment; acute hospital operators do not.
+
+**Overall Gen Z/Alpha stock framework grade: B− for thematic screening** — strong macro behavioral data, selective ticker proof, but composite rankings overstate predictive confidence. See [`EVIDENCE_AUDIT.md`](EVIDENCE_AUDIT.md) for full tier breakdown.
 
 ---
 
 ## References
+
+SAMHSA. (2024). *NSDUH data brief: Trends in substance use among young adults*. https://www.samhsa.gov/data/sites/default/files/reports/rpt56978/2024-nsduh-data-brief-young-adult.pdf
+
+Monitoring the Future / NIH. (2024). *Reported use of most drugs among adolescents remained low in 2024*. https://www.nih.gov/news-events/news-releases/reported-use-most-drugs-among-adolescents-remained-low-2024
+
+NIQ. (2025). *2024 beverage alcohol year in review*. https://nielseniq.com/global/en/insights/analysis/2025/2024-beverage-alcohol-year-in-review/
+
+Piper Sandler. (2024). *Taking Stock With Teens Fall 2024 infographic*. https://www.pipersandler.com/sites/default/files/document/TSWT_Fall24_Infographic.pdf
 
 Circana. (2025). *Sober curious nation alcohol survey*. https://www.circana.com/post/sober-curious-nation-alcohol-survey
 
@@ -395,13 +429,18 @@ cd project4_connection_economy_thesis
 pip install yfinance pandas
 python scripts/03_build_genz_behavior_data.py
 python scripts/04_score_genz_alpha_stocks.py
+python scripts/05_build_evidence_audit.py
 ```
 
 | File | Description |
 |---|---|
-| `data/genz_alpha_behavior_trends.csv` | 26 survey statistics by theme |
+| [`EVIDENCE_AUDIT.md`](EVIDENCE_AUDIT.md) | **Evidence tier audit** — what is proven vs inferred |
+| `data/genz_alpha_behavior_trends.csv` | 34 survey statistics by theme (all with URLs) |
+| `data/genz_alpha_stock_evidence.csv` | Per-ticker claims with Tier A/B/C labels |
+| `data/genz_alpha_ticker_evidence_grades.csv` | Ticker defensibility grades |
 | `data/genz_alpha_market_forecasts.csv` | Sector TAM/CAGR forecasts |
-| `data/genz_alpha_stock_scores.csv` | 28 tickers with 7-factor scores |
+| `data/genz_alpha_stock_scores.csv` | 28 tickers with 7-factor scores (Tier C) |
+| `results/evidence_audit_summary.json` | Machine-readable audit summary |
 | `results/genz_alpha_rankings.json` | Top/bottom rankings + theme averages |
 
 *Research only. Not investment advice. Past performance does not guarantee future results.*

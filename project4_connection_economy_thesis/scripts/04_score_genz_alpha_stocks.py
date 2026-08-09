@@ -19,6 +19,9 @@ Outputs:
   ../data/genz_alpha_stock_scores.csv
   ../data/genz_alpha_stock_prices.csv
   ../results/genz_alpha_rankings.json
+
+Note: Composite scores are Tier C (analyst judgment). See EVIDENCE_AUDIT.md and
+genz_alpha_stock_evidence.csv for per-ticker Tier A/B citations.
 """
 
 import json

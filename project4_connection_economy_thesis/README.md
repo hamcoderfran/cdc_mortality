@@ -10,6 +10,7 @@ This folder combines **public survey data**, **healthcare utilization forecasts*
 
 | File | Description |
 |---|---|
+| [`EVIDENCE_AUDIT.md`](EVIDENCE_AUDIT.md) | **Evidence quality audit** — Tier A/B/C breakdown; what is proven vs inferred |
 | [`THESIS_EVALUATION.md`](THESIS_EVALUATION.md) | Full research paper (~7,500 words): hospital vs experience stock thesis — critical evaluation |
 | [`GENZ_ALPHA_STOCK_ANALYSIS.md`](GENZ_ALPHA_STOCK_ANALYSIS.md) | Gen Z/Alpha 10–20yr stock analysis: drinking decline, AI skepticism, wellness, scoring 28 tickers |
 | [`NOVEL_THESES.md`](NOVEL_THESES.md) | **NEW: 6 novel theses, 18 new tickers** — pet proxy, bar replacement, swipe fatigue, analog economy |
@@ -56,7 +57,21 @@ Six underexplored angles with **18 different tickers**: TRUP, WMG, PLAY, MODG, H
 
 See [`NOVEL_THESES.md`](NOVEL_THESES.md) for full analysis, pair trades, and critical evaluation.
 
-**Top scored tickers (100-point scale):** LYV (89), PLNT (82), MNST (81), LULU/ELF (79), DUOL (78)
+**Not everything is equally data-backed.** See [`EVIDENCE_AUDIT.md`](EVIDENCE_AUDIT.md) for the full audit.
+
+| Layer | Confidence |
+|---|---|
+| Macro behavioral trends (alcohol ↓, AI skepticism, loneliness) | **High** (Tier A/B — SAMHSA, Gallup, Harris, etc.) |
+| Sector data (beer −2.9% volume, mocktail TAM) | **Medium–High** (NIQ, industry forecasts) |
+| Historical stock CAGRs | **High** (computed from yfinance) |
+| Composite rankings & "Top 10 picks" | **Low for prediction** (Tier C analyst judgment) |
+| 10–20 year return forecasts | **Not validated** |
+
+## Gen Z / Gen Alpha stock analysis
+
+**Top scored tickers (100-point scale, Tier C judgment):** LYV (89), PLNT (82), MNST (81), LULU/ELF (79), DUOL (78)
+
+**Strongest ticker-level evidence (Tier A/B):** ELF (#1 teen cosmetics), MNST (#1 teen energy drink), RBLX (35% U13 DAUs), LYV (130M tickets), TAP/BUD (beer volume headwinds)
 
 **Structural avoids:** TAP (40), BUD/STZ (43) — alcohol volume headwinds
 

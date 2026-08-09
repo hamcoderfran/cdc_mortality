@@ -1,0 +1,431 @@
+{
+  "generated": "2026-08-09T22:11:43.749194+00:00",
+  "methodology_note": "Tier A = primary data (federal surveys, SEC filings, computed prices). Tier B = reputable industry/consumer surveys (not ticker-specific). Tier C = analyst judgment / inference. Composite scores are always Tier C.",
+  "macro_behavioral_claims": {
+    "count": 34,
+    "with_source_url": 34,
+    "evidence_quality": "Strong (Tier A/B) \u2014 all 26 stats have cited URLs"
+  },
+  "ticker_evidence_summary": {
+    "tickers": 28,
+    "grade_distribution": {
+      "Weak-Moderate": 11,
+      "Strong": 7,
+      "Weak": 6,
+      "Moderate": 4
+    },
+    "tier_a_claims_total": 15,
+    "tier_b_claims_total": 23,
+    "tier_c_claims_total": 20
+  },
+  "composite_scores": {
+    "evidence_tier": "C",
+    "note": "7-factor 1-5 scores are expert judgment; not regression-derived or backtested"
+  },
+  "forward_10_20yr_predictions": {
+    "evidence_tier": "C",
+    "note": "Not empirically validated; scenario probabilities are illustrative"
+  },
+  "tickers_by_evidence_grade": [
+    {
+      "ticker": "LYV",
+      "company": "Live Nation",
+      "ticker_evidence_grade": "Strong",
+      "tier_a": 2,
+      "tier_b": 3,
+      "tier_c": 1,
+      "composite_score_100": 89.0
+    },
+    {
+      "ticker": "PLNT",
+      "company": "Planet Fitness",
+      "ticker_evidence_grade": "Weak-Moderate",
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 2,
+      "composite_score_100": 82.0
+    },
+    {
+      "ticker": "MNST",
+      "company": "Monster Beverage",
+      "ticker_evidence_grade": "Strong",
+      "tier_a": 1,
+      "tier_b": 2,
+      "tier_c": 1,
+      "composite_score_100": 81.0
+    },
+    {
+      "ticker": "ELF",
+      "company": "e.l.f. Beauty",
+      "ticker_evidence_grade": "Strong",
+      "tier_a": 2,
+      "tier_b": 1,
+      "tier_c": 0,
+      "composite_score_100": 79.0
+    },
+    {
+      "ticker": "LULU",
+      "company": "Lululemon",
+      "ticker_evidence_grade": "Weak-Moderate",
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 1,
+      "composite_score_100": 79.0
+    },
+    {
+      "ticker": "DUOL",
+      "company": "Duolingo",
+      "ticker_evidence_grade": "Weak-Moderate",
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 1,
+      "composite_score_100": 78.0
+    },
+    {
+      "ticker": "RBLX",
+      "company": "Roblox",
+      "ticker_evidence_grade": "Strong",
+      "tier_a": 4,
+      "tier_b": 1,
+      "tier_c": 0,
+      "composite_score_100": 76.0
+    },
+    {
+      "ticker": "ONON",
+      "company": "On Holding",
+      "ticker_evidence_grade": "Weak",
+      "tier_a": 0,
+      "tier_b": 0,
+      "tier_c": 1,
+      "composite_score_100": 76.0
+    },
+    {
+      "ticker": "CELH",
+      "company": "Celsius Holdings",
+      "ticker_evidence_grade": "Strong",
+      "tier_a": 1,
+      "tier_b": 1,
+      "tier_c": 1,
+      "composite_score_100": 76.0
+    },
+    {
+      "ticker": "ETSY",
+      "company": "Etsy",
+      "ticker_evidence_grade": "Weak-Moderate",
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 1,
+      "composite_score_100": 76.0
+    },
+    {
+      "ticker": "PEP",
+      "company": "PepsiCo",
+      "ticker_evidence_grade": "Weak-Moderate",
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 1,
+      "composite_score_100": 74.0
+    },
+    {
+      "ticker": "BKNG",
+      "company": "Booking Holdings",
+      "ticker_evidence_grade": "Moderate",
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0,
+      "composite_score_100": 73.0
+    },
+    {
+      "ticker": "ACHC",
+      "company": "Acadia Healthcare",
+      "ticker_evidence_grade": "Moderate",
+      "tier_a": 1,
+      "tier_b": 0,
+      "tier_c": 1,
+      "composite_score_100": 71.0
+    },
+    {
+      "ticker": "TJX",
+      "company": "TJX Companies",
+      "ticker_evidence_grade": "Weak-Moderate",
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 1,
+      "composite_score_100": 71.0
+    },
+    {
+      "ticker": "KDP",
+      "company": "Keurig Dr Pepper",
+      "ticker_evidence_grade": "Weak-Moderate",
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 1,
+      "composite_score_100": 70.0
+    },
+    {
+      "ticker": "HIMS",
+      "company": "Hims & Hers",
+      "ticker_evidence_grade": "Weak",
+      "tier_a": 0,
+      "tier_b": 0,
+      "tier_c": 1,
+      "composite_score_100": 69.0
+    },
+    {
+      "ticker": "ROST",
+      "company": "Ross Stores",
+      "ticker_evidence_grade": "Weak-Moderate",
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0,
+      "composite_score_100": 68.0
+    },
+    {
+      "ticker": "PANW",
+      "company": "Palo Alto Networks",
+      "ticker_evidence_grade": "Weak-Moderate",
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0,
+      "composite_score_100": 68.0
+    },
+    {
+      "ticker": "CRWD",
+      "company": "CrowdStrike",
+      "ticker_evidence_grade": "Moderate",
+      "tier_a": 1,
+      "tier_b": 0,
+      "tier_c": 1,
+      "composite_score_100": 68.0
+    },
+    {
+      "ticker": "TTWO",
+      "company": "Take-Two Interactive",
+      "ticker_evidence_grade": "Weak-Moderate",
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 1,
+      "composite_score_100": 66.0
+    },
+    {
+      "ticker": "EXPE",
+      "company": "Expedia Group",
+      "ticker_evidence_grade": "Weak",
+      "tier_a": 0,
+      "tier_b": 0,
+      "tier_c": 1,
+      "composite_score_100": 65.0
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "ticker_evidence_grade": "Weak",
+      "tier_a": 0,
+      "tier_b": 0,
+      "tier_c": 1,
+      "composite_score_100": 62.0
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "ticker_evidence_grade": "Strong",
+      "tier_a": 1,
+      "tier_b": 1,
+      "tier_c": 0,
+      "composite_score_100": 62.0
+    },
+    {
+      "ticker": "VST",
+      "company": "Vista Outdoor / Revelyst",
+      "ticker_evidence_grade": "Weak",
+      "tier_a": 0,
+      "tier_b": 0,
+      "tier_c": 1,
+      "composite_score_100": 59.0
+    },
+    {
+      "ticker": "SAM",
+      "company": "Boston Beer",
+      "ticker_evidence_grade": "Weak",
+      "tier_a": 0,
+      "tier_b": 0,
+      "tier_c": 1,
+      "composite_score_100": 57.0
+    },
+    {
+      "ticker": "BUD",
+      "company": "Anheuser-Busch InBev",
+      "ticker_evidence_grade": "Moderate",
+      "tier_a": 1,
+      "tier_b": 0,
+      "tier_c": 0,
+      "composite_score_100": 43.0
+    },
+    {
+      "ticker": "STZ",
+      "company": "Constellation Brands",
+      "ticker_evidence_grade": "Weak-Moderate",
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0,
+      "composite_score_100": 43.0
+    },
+    {
+      "ticker": "TAP",
+      "company": "Molson Coors",
+      "ticker_evidence_grade": "Strong",
+      "tier_a": 1,
+      "tier_b": 1,
+      "tier_c": 0,
+      "composite_score_100": 40.0
+    }
+  ],
+  "high_confidence_ticker_claims": [
+    {
+      "ticker": "LYV",
+      "company": "Live Nation",
+      "tier_a": 2,
+      "tier_b": 3
+    },
+    {
+      "ticker": "MNST",
+      "company": "Monster Beverage",
+      "tier_a": 1,
+      "tier_b": 2
+    },
+    {
+      "ticker": "ELF",
+      "company": "e.l.f. Beauty",
+      "tier_a": 2,
+      "tier_b": 1
+    },
+    {
+      "ticker": "RBLX",
+      "company": "Roblox",
+      "tier_a": 4,
+      "tier_b": 1
+    },
+    {
+      "ticker": "CELH",
+      "company": "Celsius Holdings",
+      "tier_a": 1,
+      "tier_b": 1
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "tier_a": 1,
+      "tier_b": 1
+    },
+    {
+      "ticker": "TAP",
+      "company": "Molson Coors",
+      "tier_a": 1,
+      "tier_b": 1
+    }
+  ],
+  "low_confidence_ticker_claims": [
+    {
+      "ticker": "PLNT",
+      "company": "Planet Fitness",
+      "tier_c": 2,
+      "composite_score_100": 82.0
+    },
+    {
+      "ticker": "LULU",
+      "company": "Lululemon",
+      "tier_c": 1,
+      "composite_score_100": 79.0
+    },
+    {
+      "ticker": "DUOL",
+      "company": "Duolingo",
+      "tier_c": 1,
+      "composite_score_100": 78.0
+    },
+    {
+      "ticker": "ONON",
+      "company": "On Holding",
+      "tier_c": 1,
+      "composite_score_100": 76.0
+    },
+    {
+      "ticker": "ETSY",
+      "company": "Etsy",
+      "tier_c": 1,
+      "composite_score_100": 76.0
+    },
+    {
+      "ticker": "PEP",
+      "company": "PepsiCo",
+      "tier_c": 1,
+      "composite_score_100": 74.0
+    },
+    {
+      "ticker": "TJX",
+      "company": "TJX Companies",
+      "tier_c": 1,
+      "composite_score_100": 71.0
+    },
+    {
+      "ticker": "KDP",
+      "company": "Keurig Dr Pepper",
+      "tier_c": 1,
+      "composite_score_100": 70.0
+    },
+    {
+      "ticker": "HIMS",
+      "company": "Hims & Hers",
+      "tier_c": 1,
+      "composite_score_100": 69.0
+    },
+    {
+      "ticker": "ROST",
+      "company": "Ross Stores",
+      "tier_c": 0,
+      "composite_score_100": 68.0
+    },
+    {
+      "ticker": "PANW",
+      "company": "Palo Alto Networks",
+      "tier_c": 0,
+      "composite_score_100": 68.0
+    },
+    {
+      "ticker": "TTWO",
+      "company": "Take-Two Interactive",
+      "tier_c": 1,
+      "composite_score_100": 66.0
+    },
+    {
+      "ticker": "EXPE",
+      "company": "Expedia Group",
+      "tier_c": 1,
+      "composite_score_100": 65.0
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "tier_c": 1,
+      "composite_score_100": 62.0
+    },
+    {
+      "ticker": "VST",
+      "company": "Vista Outdoor / Revelyst",
+      "tier_c": 1,
+      "composite_score_100": 59.0
+    },
+    {
+      "ticker": "SAM",
+      "company": "Boston Beer",
+      "tier_c": 1,
+      "composite_score_100": 57.0
+    },
+    {
+      "ticker": "STZ",
+      "company": "Constellation Brands",
+      "tier_c": 0,
+      "composite_score_100": 43.0
+    }
+  ]
+}
