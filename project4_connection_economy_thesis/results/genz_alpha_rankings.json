@@ -1,0 +1,169 @@
+{
+  "generated": "2026-08-09T22:06:42.164908Z",
+  "methodology": "Weighted 7-factor scoring (1-5) for Gen Z/Alpha 10-20yr alignment",
+  "top_15_stocks": [
+    {
+      "ticker": "LYV",
+      "company": "Live Nation",
+      "theme": "irl_experiences",
+      "composite_score_100": 89.0,
+      "rationale": "Irreplaceable human live performance; AI cannot replicate stadium experience; antitrust risk"
+    },
+    {
+      "ticker": "PLNT",
+      "company": "Planet Fitness",
+      "theme": "irl_wellness_social",
+      "composite_score_100": 82.0,
+      "rationale": "Low-cost 'third space' for Gen Z wellness socializing; Harris: 65% feel more connected in wellness settings"
+    },
+    {
+      "ticker": "MNST",
+      "company": "Monster Beverage",
+      "theme": "na_functional_beverages",
+      "composite_score_100": 81.0,
+      "rationale": "Energy drinks substitute for alcohol in social settings; top Gen Z beverage brand affinity"
+    },
+    {
+      "ticker": "LULU",
+      "company": "Lululemon",
+      "theme": "irl_wellness_social",
+      "composite_score_100": 79.0,
+      "rationale": "Community-run clubs + premium wellness identity with Gen Z female skew"
+    },
+    {
+      "ticker": "ELF",
+      "company": "e.l.f. Beauty",
+      "theme": "clean_beauty_value",
+      "composite_score_100": 79.0,
+      "rationale": "Affordable affluence; viral TikTok brand; Gen Z over-indexed"
+    },
+    {
+      "ticker": "DUOL",
+      "company": "Duolingo",
+      "theme": "human_skills_authentic",
+      "composite_score_100": 78.0,
+      "rationale": "Human skill acquisition; Gen Z distrusts AI for learning but uses gamified human-centric apps"
+    },
+    {
+      "ticker": "CELH",
+      "company": "Celsius Holdings",
+      "theme": "na_functional_beverages",
+      "composite_score_100": 76.0,
+      "rationale": "Fitness-forward functional drinks; wellness + social replacement for drinking"
+    },
+    {
+      "ticker": "ONON",
+      "company": "On Holding",
+      "theme": "irl_wellness_social",
+      "composite_score_100": 76.0,
+      "rationale": "Running club culture; Gen Z fitness-as-social"
+    },
+    {
+      "ticker": "RBLX",
+      "company": "Roblox",
+      "theme": "gaming_gen_alpha",
+      "composite_score_100": 76.0,
+      "rationale": "Gen Alpha primary platform; social gaming; AI content risk on platform"
+    },
+    {
+      "ticker": "ETSY",
+      "company": "Etsy",
+      "theme": "value_thrift",
+      "composite_score_100": 76.0,
+      "rationale": "Handmade/authentic; anti-mass-production; human creator economy"
+    },
+    {
+      "ticker": "PEP",
+      "company": "PepsiCo",
+      "theme": "na_functional_beverages",
+      "composite_score_100": 74.0,
+      "rationale": "Gatorade, bubly, NA extensions; snack + beverage Gen Z reach"
+    },
+    {
+      "ticker": "BKNG",
+      "company": "Booking Holdings",
+      "theme": "event_travel",
+      "composite_score_100": 73.0,
+      "rationale": "Experiences segment; global travel for concerts/events"
+    },
+    {
+      "ticker": "TJX",
+      "company": "TJX Companies",
+      "theme": "value_thrift",
+      "composite_score_100": 71.0,
+      "rationale": "TJX/TK Maxx; treasure-hunt shopping Gen Z over-indexes"
+    },
+    {
+      "ticker": "ACHC",
+      "company": "Acadia Healthcare",
+      "theme": "mental_health_services",
+      "composite_score_100": 71.0,
+      "rationale": "Behavioral health facilities; youth MH crisis drives demand for in-person care"
+    },
+    {
+      "ticker": "KDP",
+      "company": "Keurig Dr Pepper",
+      "theme": "na_functional_beverages",
+      "composite_score_100": 70.0,
+      "rationale": "Owns NA RTD portfolio; mocktail/functional drink distribution scale"
+    }
+  ],
+  "bottom_5_stocks": [
+    {
+      "ticker": "VST",
+      "company": "Vista Outdoor / Revelyst",
+      "theme": "outdoor_authentic",
+      "composite_score_100": 59.0
+    },
+    {
+      "ticker": "SAM",
+      "company": "Boston Beer",
+      "theme": "na_pivot_alcohol",
+      "composite_score_100": 57.0
+    },
+    {
+      "ticker": "STZ",
+      "company": "Constellation Brands",
+      "theme": "alcohol_headwind",
+      "composite_score_100": 43.0
+    },
+    {
+      "ticker": "BUD",
+      "company": "Anheuser-Busch InBev",
+      "theme": "alcohol_headwind",
+      "composite_score_100": 43.0
+    },
+    {
+      "ticker": "TAP",
+      "company": "Molson Coors",
+      "theme": "alcohol_headwind",
+      "composite_score_100": 40.0
+    }
+  ],
+  "avg_score_by_theme": {
+    "irl_experiences": 89.0,
+    "irl_wellness_social": 79.0,
+    "clean_beauty_value": 79.0,
+    "human_skills_authentic": 78.0,
+    "na_functional_beverages": 75.2,
+    "value_thrift": 71.7,
+    "gaming_gen_alpha": 71.0,
+    "mental_health_services": 70.0,
+    "event_travel": 69.0,
+    "ai_skepticism_security": 68.0,
+    "ai_infrastructure_paradox": 62.0,
+    "ai_platform_paradox": 62.0,
+    "outdoor_authentic": 59.0,
+    "na_pivot_alcohol": 57.0,
+    "alcohol_headwind": 42.0
+  },
+  "score_weights": {
+    "behavioral_fit": 0.2,
+    "demographic_tailwind": 0.15,
+    "cultural_momentum": 0.15,
+    "alcohol_shift_benefit": 0.1,
+    "ai_skepticism_benefit": 0.15,
+    "competitive_moat_10yr": 0.15,
+    "execution_risk": 0.1
+  }
+}

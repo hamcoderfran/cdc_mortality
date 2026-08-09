@@ -1,0 +1,29 @@
+ticker,company,theme,composite_score_100,rationale,historical_cagr_2019_pct,behavioral_fit,demographic_tailwind,cultural_momentum,alcohol_shift_benefit,ai_skepticism_benefit,competitive_moat_10yr,execution_risk
+LYV,Live Nation,irl_experiences,89.0,Irreplaceable human live performance; AI cannot replicate stadium experience; antitrust risk,18.97,5,5,5,3,5,4,3
+PLNT,Planet Fitness,irl_wellness_social,82.0,Low-cost 'third space' for Gen Z wellness socializing; Harris: 65% feel more connected in wellness settings,-0.9,5,4,4,4,5,3,3
+MNST,Monster Beverage,na_functional_beverages,81.0,Energy drinks substitute for alcohol in social settings; top Gen Z beverage brand affinity,18.83,5,4,5,4,2,4,4
+LULU,Lululemon,irl_wellness_social,79.0,Community-run clubs + premium wellness identity with Gen Z female skew,0.55,4,4,5,3,4,4,3
+ELF,e.l.f. Beauty,clean_beauty_value,79.0,Affordable affluence; viral TikTok brand; Gen Z over-indexed,36.7,5,5,5,1,4,3,3
+DUOL,Duolingo,human_skills_authentic,78.0,Human skill acquisition; Gen Z distrusts AI for learning but uses gamified human-centric apps,-0.33,4,5,5,1,4,4,3
+CELH,Celsius Holdings,na_functional_beverages,76.0,Fitness-forward functional drinks; wellness + social replacement for drinking,52.08,5,4,5,4,2,3,3
+ONON,On Holding,irl_wellness_social,76.0,Running club culture; Gen Z fitness-as-social,0.93,4,4,5,3,4,3,3
+RBLX,Roblox,gaming_gen_alpha,76.0,Gen Alpha primary platform; social gaming; AI content risk on platform,-7.71,5,5,5,1,2,4,3
+ETSY,Etsy,value_thrift,76.0,Handmade/authentic; anti-mass-production; human creator economy,8.21,5,4,4,1,5,3,3
+PEP,PepsiCo,na_functional_beverages,74.0,"Gatorade, bubly, NA extensions; snack + beverage Gen Z reach",6.42,4,4,4,4,2,4,4
+BKNG,Booking Holdings,event_travel,73.0,Experiences segment; global travel for concerts/events,16.45,4,4,3,2,3,5,4
+TJX,TJX Companies,value_thrift,71.0,TJX/TK Maxx; treasure-hunt shopping Gen Z over-indexes,20.01,4,4,3,1,3,5,4
+ACHC,Acadia Healthcare,mental_health_services,71.0,Behavioral health facilities; youth MH crisis drives demand for in-person care,2.64,4,5,3,2,4,3,3
+KDP,Keurig Dr Pepper,na_functional_beverages,70.0,Owns NA RTD portfolio; mocktail/functional drink distribution scale,4.87,4,4,3,5,2,3,4
+HIMS,Hims & Hers,mental_health_services,69.0,Telehealth mental health + wellness; Gen Z-native brand but AI-adjacent risk,16.66,4,5,4,2,3,3,2
+ROST,Ross Stores,value_thrift,68.0,Off-price retail aligns with Gen Z dupes/thrift; 63% plan vintage/upcycled,16.92,4,4,3,1,3,4,4
+PANW,Palo Alto Networks,ai_skepticism_security,68.0,Enterprise + consumer privacy/security infrastructure,38.58,3,4,3,1,5,4,3
+CRWD,CrowdStrike,ai_skepticism_security,68.0,AI proliferation increases cyberattack surface; distrust drives security spend,42.57,3,4,3,1,5,4,3
+TTWO,Take-Two Interactive,gaming_gen_alpha,66.0,GTA/F2P; Gen Z in-game spending 36% above average,12.03,4,4,4,1,2,4,3
+EXPE,Expedia Group,event_travel,65.0,Event-driven travel booking; experiences attach rate growing,14.8,4,4,3,2,3,3,3
+NVDA,NVIDIA,ai_infrastructure_paradox,62.0,Gen Z uses AI but resents it; infra layer wins regardless of sentiment,73.75,3,4,4,1,1,5,3
+GOOGL,Alphabet,ai_platform_paradox,62.0,AI-native tools + YouTube creator economy; Gen Z anger at AI poses reputational risk,28.66,3,4,4,1,1,5,3
+VST,Vista Outdoor / Revelyst,outdoor_authentic,59.0,Outdoor recreation; authentic physical activity (note: corporate changes),30.07,3,3,3,2,4,3,2
+SAM,Boston Beer,na_pivot_alcohol,57.0,Twisted Tea/Hard seltzer + NA experiments; transitional play,-2.99,3,3,3,3,2,3,3
+STZ,Constellation Brands,alcohol_headwind,43.0,Beer/spirits portfolio faces Gen Z volume decline; NA pivot partial,-0.7,2,2,2,1,2,3,3
+BUD,Anheuser-Busch InBev,alcohol_headwind,43.0,Global beer giant with Gen Z relevance risk; NA investments lag sentiment shift,4.73,2,2,2,1,2,3,3
+TAP,Molson Coors,alcohol_headwind,40.0,Core beer portfolio structurally challenged by sober-curious cohort,-0.86,2,2,2,1,2,2,3
