@@ -1,0 +1,15 @@
+metric,charleston,sc_median,us_median
+drug_overdose_death_rate,37.59145922,37.355248412,28.602277526
+heart_disease_death_rate,254.6,332.3,347.0
+stroke_death_rate,74.0,86.6,79.1
+diabetes_prevalence_pct,10.0,13.1,10.9
+lung_cancer_death_rate,28.7,38.7,39.2
+suicide_death_rate,15.370666599,15.741381081,17.429162836499998
+life_expectancy,77.8945433,72.874593819,75.054453792
+premature_death_rate,8317.4061474,13119.147122,9988.2992377
+median_household_income,88111.0,57768.0,64243.5
+child_poverty_pct,0.142,0.239,0.1785
+uninsured_pct,0.0967336758,0.114937418,0.08740174525
+pm25,7.1,7.8,7.8
+severe_housing_problems_pct,0.1691042864,0.1413975552,0.12861247380000002
+food_environment_index,8.4,7.7,7.7

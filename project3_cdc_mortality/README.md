@@ -169,3 +169,13 @@ python scripts/03_download_lung_cancer.py
 python scripts/04_merge_and_correlate.py
 python scripts/05_make_maps.py
 ```
+
+## Charleston County deep-dive (companion analysis)
+
+A second folder, **`charleston_county/`**, provides a tract-level analysis of
+Charleston County, SC (FIPS 45019) with 15 interactive census-tract maps,
+eight data-backed issue briefs (opioids, disparities, food insecurity,
+housing, flooding, behavioral health, chronic disease, uninsured pockets),
+and evidence-based intervention tables. See
+[`charleston_county/README.md`](charleston_county/README.md) and open
+[`charleston_county/results/maps/index.html`](charleston_county/results/maps/index.html).

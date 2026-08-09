@@ -1,0 +1,58 @@
+{
+  "n_tracts": 98,
+  "county_fips": "45019",
+  "drug_overdose_rate_per_100k": 37.6,
+  "drug_overdose_us_median": 28.6,
+  "drug_overdose_sc_median": 37.4,
+  "life_expectancy_years": 77.9,
+  "sc_life_expectancy_median": 72.9,
+  "median_household_income": 88111,
+  "child_poverty_pct": 14.2,
+  "uninsured_county_pct": 9.7,
+  "severe_housing_problems_pct": 16.9,
+  "svi_overall": {
+    "min": 0.0,
+    "max": 1.0,
+    "range": 1.0,
+    "mean": 0.4,
+    "median": 0.4
+  },
+  "diabetes_tract_spread": {
+    "min": 2.8,
+    "max": 25.3,
+    "range": 22.5,
+    "mean": 11.8,
+    "median": 10.7
+  },
+  "obesity_tract_spread": {
+    "min": 21.7,
+    "max": 48.2,
+    "range": 26.5,
+    "mean": 30.4,
+    "median": 28.9
+  },
+  "uninsured_tract_spread": {
+    "min": 3.2,
+    "max": 27.7,
+    "range": 24.5,
+    "mean": 10.1,
+    "median": 8.7
+  },
+  "food_insecurity_tract_spread": {
+    "min": 2.9,
+    "max": 50.6,
+    "range": 47.7,
+    "mean": 14.9,
+    "median": 11.4
+  },
+  "mental_distress_tract_spread": {
+    "min": 7.4,
+    "max": 22.8,
+    "range": 15.4,
+    "mean": 14.9,
+    "median": 14.4
+  },
+  "high_svi_tract_count": 16,
+  "high_svi_tract_pct": 16.3,
+  "diabetes_high_svi_overlap_tracts": 12
+}
