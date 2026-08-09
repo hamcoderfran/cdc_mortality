@@ -25,3 +25,11 @@ value_authenticity,gen_z_plan_vintage_upcycled_holiday_pct,63.0,2025,PwC Holiday
 value_authenticity,gen_z_willing_private_label_pct,41.0,2025,PwC,https://www.pwc.com/us/en/industries/consumer-markets/library/gen-z-consumer-trends.html,
 gaming,gen_z_purchased_in_game_item_more_likely_pct,36.0,2025,GWI,https://www.gwi.com/blog/gen-z-spending-habits,above average likelihood
 gaming,gen_z_digital_game_purchase_more_likely_pct,33.0,2025,GWI,https://www.gwi.com/blog/gen-z-spending-habits,
+alcohol_decline,young_adults_18_25_past_month_alcohol_pct,47.5,2024,SAMHSA NSDUH,https://www.samhsa.gov/data/sites/default/files/reports/rpt56978/2024-nsduh-data-brief-young-adult.pdf,Down from 50.9% in 2021
+alcohol_decline,grade_12_past_year_alcohol_use_pct,41.7,2024,Monitoring the Future (NIH/NIDA),https://www.nih.gov/news-events/news-releases/reported-use-most-drugs-among-adolescents-remained-low-2024,Down from 75% in 1997
+alcohol_decline,us_beer_volume_change_pct_2024,-2.9,2024,NIQ Beverage Alcohol Year in Review,https://nielseniq.com/global/en/insights/analysis/2025/2024-beverage-alcohol-year-in-review/,52 weeks ending 12/28/2024
+brand_affinity,elf_num1_cosmetics_female_teens_pct,35.0,2024,Piper Sandler TSWT Fall 2024,https://www.pipersandler.com/sites/default/files/document/TSWT_Fall24_Infographic.pdf,Up 6pp YoY
+brand_affinity,teens_prefer_energy_over_coffee_pct,39.0,2024,Piper Sandler TSWT Fall 2024,https://www.pipersandler.com/sites/default/files/document/TSWT_Fall24_Infographic.pdf,vs coffee 31% soda 30%; Monster #1 energy drink
+company_ops,lyv_tickets_sold_through_july_2025,130000000.0,2025,Live Nation Q2 2025 8-K,https://www.prnewswire.com/news-releases/live-nation-entertainment-reports-second-quarter-2025-results-302524774.html,Up 6% YoY
+company_ops,lyv_deferred_concert_revenue_q2_2025_usd_b,5.1,2025,Live Nation Q2 2025 8-K,https://content.equisolve.net/livenationentertainment/sec/0001335258-25-000127/for_pdf/lyv-2025q2xex991er.htm,Up 25% YoY
+company_ops,rblx_age_checked_dau_under_13_pct,35.0,2026,Roblox shareholder letter,https://about.roblox.com/newsroom/2026/02/moving-beyond-self-reported-age,45% of DAUs age-checked as of Jan 2026

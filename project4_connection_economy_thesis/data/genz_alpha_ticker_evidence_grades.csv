@@ -1,0 +1,29 @@
+ticker,tier_a,tier_b,tier_c,total_claims,verified_yes,verified_partial,composite_score_evidence_tier,ticker_evidence_grade,company,theme,composite_score_100,historical_cagr_2019_pct
+LYV,2,3,1,6,5,0,C,Strong,Live Nation,irl_experiences,89.0,18.97
+PLNT,0,1,2,3,1,0,C,Weak-Moderate,Planet Fitness,irl_wellness_social,82.0,-0.9
+MNST,1,2,1,4,3,0,C,Strong,Monster Beverage,na_functional_beverages,81.0,18.83
+ELF,2,1,0,3,3,0,C,Strong,e.l.f. Beauty,clean_beauty_value,79.0,36.7
+LULU,0,1,1,2,1,0,C,Weak-Moderate,Lululemon,irl_wellness_social,79.0,0.55
+DUOL,0,1,1,2,1,0,C,Weak-Moderate,Duolingo,human_skills_authentic,78.0,-0.33
+RBLX,4,1,0,5,5,0,C,Strong,Roblox,gaming_gen_alpha,76.0,-7.71
+ONON,0,0,1,1,0,0,C,Weak,On Holding,irl_wellness_social,76.0,0.93
+CELH,1,1,1,3,2,0,C,Strong,Celsius Holdings,na_functional_beverages,76.0,52.08
+ETSY,0,1,1,2,1,0,C,Weak-Moderate,Etsy,value_thrift,76.0,8.21
+PEP,0,1,1,2,1,0,C,Weak-Moderate,PepsiCo,na_functional_beverages,74.0,6.42
+BKNG,0,2,0,2,2,0,C,Moderate,Booking Holdings,event_travel,73.0,16.45
+ACHC,1,0,1,2,1,0,C,Moderate,Acadia Healthcare,mental_health_services,71.0,2.64
+TJX,0,1,1,2,1,0,C,Weak-Moderate,TJX Companies,value_thrift,71.0,20.01
+KDP,0,1,1,2,1,0,C,Weak-Moderate,Keurig Dr Pepper,na_functional_beverages,70.0,4.87
+HIMS,0,0,1,1,0,0,C,Weak,Hims & Hers,mental_health_services,69.0,16.66
+ROST,0,1,0,1,1,0,C,Weak-Moderate,Ross Stores,value_thrift,68.0,16.92
+PANW,0,1,0,1,0,1,C,Weak-Moderate,Palo Alto Networks,ai_skepticism_security,68.0,38.58
+CRWD,1,0,1,2,1,0,C,Moderate,CrowdStrike,ai_skepticism_security,68.0,42.57
+TTWO,0,1,1,2,1,0,C,Weak-Moderate,Take-Two Interactive,gaming_gen_alpha,66.0,12.03
+EXPE,0,0,1,1,0,0,C,Weak,Expedia Group,event_travel,65.0,14.8
+GOOGL,0,0,1,1,0,0,C,Weak,Alphabet,ai_platform_paradox,62.0,28.66
+NVDA,1,1,0,2,2,0,C,Strong,NVIDIA,ai_infrastructure_paradox,62.0,73.75
+VST,0,0,1,1,0,0,C,Weak,Vista Outdoor / Revelyst,outdoor_authentic,59.0,30.07
+SAM,0,0,1,1,0,0,C,Weak,Boston Beer,na_pivot_alcohol,57.0,-2.99
+BUD,1,0,0,1,1,0,C,Moderate,Anheuser-Busch InBev,alcohol_headwind,43.0,4.73
+STZ,0,1,0,1,0,1,C,Weak-Moderate,Constellation Brands,alcohol_headwind,43.0,-0.7
+TAP,1,1,0,2,2,0,C,Strong,Molson Coors,alcohol_headwind,40.0,-0.86

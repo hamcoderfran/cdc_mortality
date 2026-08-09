@@ -49,6 +49,15 @@ BEHAVIOR_TRENDS = [
     # Gaming / digital-native
     {"theme": "gaming", "metric": "gen_z_purchased_in_game_item_more_likely_pct", "value": 36, "year": 2025, "source": "GWI", "note": "above average likelihood", "url": "https://www.gwi.com/blog/gen-z-spending-habits"},
     {"theme": "gaming", "metric": "gen_z_digital_game_purchase_more_likely_pct", "value": 33, "year": 2025, "source": "GWI", "url": "https://www.gwi.com/blog/gen-z-spending-habits"},
+    # Tier A federal / scan data (added evidence audit)
+    {"theme": "alcohol_decline", "metric": "young_adults_18_25_past_month_alcohol_pct", "value": 47.5, "year": 2024, "source": "SAMHSA NSDUH", "note": "Down from 50.9% in 2021", "url": "https://www.samhsa.gov/data/sites/default/files/reports/rpt56978/2024-nsduh-data-brief-young-adult.pdf"},
+    {"theme": "alcohol_decline", "metric": "grade_12_past_year_alcohol_use_pct", "value": 41.7, "year": 2024, "source": "Monitoring the Future (NIH/NIDA)", "note": "Down from 75% in 1997", "url": "https://www.nih.gov/news-events/news-releases/reported-use-most-drugs-among-adolescents-remained-low-2024"},
+    {"theme": "alcohol_decline", "metric": "us_beer_volume_change_pct_2024", "value": -2.9, "year": 2024, "source": "NIQ Beverage Alcohol Year in Review", "note": "52 weeks ending 12/28/2024", "url": "https://nielseniq.com/global/en/insights/analysis/2025/2024-beverage-alcohol-year-in-review/"},
+    {"theme": "brand_affinity", "metric": "elf_num1_cosmetics_female_teens_pct", "value": 35, "year": 2024, "source": "Piper Sandler TSWT Fall 2024", "note": "Up 6pp YoY", "url": "https://www.pipersandler.com/sites/default/files/document/TSWT_Fall24_Infographic.pdf"},
+    {"theme": "brand_affinity", "metric": "teens_prefer_energy_over_coffee_pct", "value": 39, "year": 2024, "source": "Piper Sandler TSWT Fall 2024", "note": "vs coffee 31% soda 30%; Monster #1 energy drink", "url": "https://www.pipersandler.com/sites/default/files/document/TSWT_Fall24_Infographic.pdf"},
+    {"theme": "company_ops", "metric": "lyv_tickets_sold_through_july_2025", "value": 130_000_000, "year": 2025, "source": "Live Nation Q2 2025 8-K", "note": "Up 6% YoY", "url": "https://www.prnewswire.com/news-releases/live-nation-entertainment-reports-second-quarter-2025-results-302524774.html"},
+    {"theme": "company_ops", "metric": "lyv_deferred_concert_revenue_q2_2025_usd_b", "value": 5.1, "year": 2025, "source": "Live Nation Q2 2025 8-K", "note": "Up 25% YoY", "url": "https://content.equisolve.net/livenationentertainment/sec/0001335258-25-000127/for_pdf/lyv-2025q2xex991er.htm"},
+    {"theme": "company_ops", "metric": "rblx_age_checked_dau_under_13_pct", "value": 35, "year": 2026, "source": "Roblox shareholder letter", "note": "45% of DAUs age-checked as of Jan 2026", "url": "https://about.roblox.com/newsroom/2026/02/moving-beyond-self-reported-age"},
 ]
 
 MARKET_FORECASTS = [
