@@ -1,0 +1,105 @@
+{
+  "generated": "2026-08-09T22:14:46.220810+00:00",
+  "description": "18 novel tickers across 6 theses \u2014 not in original Gen Z 28-stock basket",
+  "theses": {
+    "analog_tactile_economy": {
+      "thesis_name": "The Analog Connection Thesis",
+      "tickers": [
+        "WMG",
+        "SONY",
+        "HAS",
+        "PINS"
+      ],
+      "avg_cagr": 4.55
+    },
+    "home_social_hub": {
+      "thesis_name": "The Home Social Hub Thesis",
+      "tickers": [
+        "WING",
+        "DPZ",
+        "NFLX"
+      ],
+      "avg_cagr": 10.31
+    },
+    "pet_connection_economy": {
+      "thesis_name": "The Pet Parent Proxy Thesis",
+      "tickers": [
+        "TRUP",
+        "CHWY",
+        "IDXX",
+        "ELAN"
+      ],
+      "avg_cagr": 1.9
+    },
+    "sleep_maxxing": {
+      "thesis_name": "The Sleep Over Nightlife Thesis",
+      "tickers": [
+        "TPX",
+        "RMD"
+      ],
+      "avg_cagr": 9.79
+    },
+    "sober_social_lbe": {
+      "thesis_name": "The Bar Replacement Thesis",
+      "tickers": [
+        "PLAY",
+        "MODG",
+        "FUN"
+      ],
+      "avg_cagr": -14.23
+    },
+    "swipe_fatigue_pivot": {
+      "thesis_name": "The Anti-Swipe Turnaround (Contrarian)",
+      "tickers": [
+        "MTCH",
+        "BMBL",
+        "AFRM"
+      ],
+      "avg_cagr": -12.95
+    }
+  },
+  "top_conviction_picks": [
+    {
+      "ticker": "PLAY",
+      "thesis_name": "The Bar Replacement Thesis",
+      "evidence_tier": "B"
+    },
+    {
+      "ticker": "TRUP",
+      "thesis_name": "The Pet Parent Proxy Thesis",
+      "evidence_tier": "A"
+    },
+    {
+      "ticker": "CHWY",
+      "thesis_name": "The Pet Parent Proxy Thesis",
+      "evidence_tier": "B"
+    },
+    {
+      "ticker": "WMG",
+      "thesis_name": "The Analog Connection Thesis",
+      "evidence_tier": "A"
+    },
+    {
+      "ticker": "HAS",
+      "thesis_name": "The Analog Connection Thesis",
+      "evidence_tier": "B"
+    }
+  ],
+  "contrarian_picks": [
+    {
+      "ticker": "MTCH",
+      "conviction": "Medium (high risk)",
+      "rationale": "CONTRARIAN: 79% Gen Z app burnout; 8 quarters paying user declines; Tinder expanding IRL events to 75 cities \u2014 pivot or value trap"
+    },
+    {
+      "ticker": "BMBL",
+      "conviction": "Low-Medium",
+      "rationale": "Paying users -16% YoY Q3 2025; Gen Z uncomfortable with AI dating features; friendship/dating app pivot unproven"
+    },
+    {
+      "ticker": "AFRM",
+      "conviction": "Medium",
+      "rationale": "BNPL for experiences \u2014 31% Gen Z used BNPL for concert tickets; enables IRL social when cash-constrained (Harris 85% use cost workarounds)"
+    }
+  ]
+}

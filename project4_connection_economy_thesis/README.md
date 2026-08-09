@@ -13,6 +13,7 @@ This folder combines **public survey data**, **healthcare utilization forecasts*
 | [`EVIDENCE_AUDIT.md`](EVIDENCE_AUDIT.md) | **Evidence quality audit** — Tier A/B/C breakdown; what is proven vs inferred |
 | [`THESIS_EVALUATION.md`](THESIS_EVALUATION.md) | Full research paper (~7,500 words): hospital vs experience stock thesis — critical evaluation |
 | [`GENZ_ALPHA_STOCK_ANALYSIS.md`](GENZ_ALPHA_STOCK_ANALYSIS.md) | Gen Z/Alpha 10–20yr stock analysis: drinking decline, AI skepticism, wellness, scoring 28 tickers |
+| [`NOVEL_THESES.md`](NOVEL_THESES.md) | **NEW: 6 novel theses, 18 new tickers** — pet proxy, bar replacement, swipe fatigue, analog economy |
 | [`data/`](data/) | Stock prices, survey stats, sector forecasts, Gen Z/Alpha scores (CSV) |
 | [`results/thesis_evidence_summary.json`](results/thesis_evidence_summary.json) | Machine-readable connection-economy summary |
 | [`results/genz_alpha_rankings.json`](results/genz_alpha_rankings.json) | Top/bottom Gen Z/Alpha stock rankings |
@@ -38,10 +39,23 @@ python scripts/01_download_stock_data.py
 python scripts/02_build_evidence_tables.py
 python scripts/03_build_genz_behavior_data.py
 python scripts/04_score_genz_alpha_stocks.py
-python scripts/05_build_evidence_audit.py
+python scripts/06_build_novel_theses.py
 ```
 
-## Evidence quality (important)
+## Novel theses (NEW — not in original 28-stock basket)
+
+Six underexplored angles with **18 different tickers**: TRUP, WMG, PLAY, MODG, HAS, MTCH (contrarian), CHWY, AFRM, and more.
+
+| Thesis | Top picks | Key data |
+|---|---|---|
+| Bar Replacement | PLAY, MODG, FUN | 73% want alcohol-optional settings (Harris) |
+| Pet Parent Proxy | TRUP, CHWY, IDXX | 70% of new pet insurance buyers under 40 |
+| Swipe Fatigue | Short MTCH, long PLAY/MODG | 79% Gen Z dating app burnout |
+| Analog Connection | WMG, HAS, PINS | Vinyl $1.04B; Gen Z drives format |
+| Sleep Maxxing | TPX, RMD | 56% guilt after disruptive nights |
+| Home Social Hub | WING, DPZ, CHWY | 74% staying in is top weekend activity |
+
+See [`NOVEL_THESES.md`](NOVEL_THESES.md) for full analysis, pair trades, and critical evaluation.
 
 **Not everything is equally data-backed.** See [`EVIDENCE_AUDIT.md`](EVIDENCE_AUDIT.md) for the full audit.
 
