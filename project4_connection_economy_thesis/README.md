@@ -14,6 +14,8 @@ This folder combines **public survey data**, **healthcare utilization forecasts*
 | [`THESIS_EVALUATION.md`](THESIS_EVALUATION.md) | Full research paper (~7,500 words): hospital vs experience stock thesis — critical evaluation |
 | [`GENZ_ALPHA_STOCK_ANALYSIS.md`](GENZ_ALPHA_STOCK_ANALYSIS.md) | Gen Z/Alpha 10–20yr stock analysis: drinking decline, AI skepticism, wellness, scoring 28 tickers |
 | [`NOVEL_THESES.md`](NOVEL_THESES.md) | **NEW: 6 novel theses, 18 new tickers** — pet proxy, bar replacement, swipe fatigue, analog economy |
+| [`MONTE_CARLO_REPORT.md`](MONTE_CARLO_REPORT.md) | **Monte Carlo simulation** (10k paths, 2026–2041): P(lift) vs P(crush) by stock |
+| [`results/maps/monte_carlo_dashboard.html`](results/maps/monte_carlo_dashboard.html) | Interactive Monte Carlo dashboard |
 | [`data/`](data/) | Stock prices, survey stats, sector forecasts, Gen Z/Alpha scores (CSV) |
 | [`results/thesis_evidence_summary.json`](results/thesis_evidence_summary.json) | Machine-readable connection-economy summary |
 | [`results/genz_alpha_rankings.json`](results/genz_alpha_rankings.json) | Top/bottom Gen Z/Alpha stock rankings |
@@ -40,9 +42,21 @@ python scripts/02_build_evidence_tables.py
 python scripts/03_build_genz_behavior_data.py
 python scripts/04_score_genz_alpha_stocks.py
 python scripts/06_build_novel_theses.py
+python scripts/07_monte_carlo_cohort_simulation.py
 ```
 
-## Novel theses (NEW — not in original 28-stock basket)
+## Monte Carlo cohort simulation
+
+**10,000 paths × 15 years × 47 stocks.** Explores which names get thematic lift vs crush as Gen Z/Alpha mature.
+
+| Most lifted | Most crushed |
+|---|---|
+| TRUP (54% top-quartile) | MTCH (53% bottom-quartile) |
+| CHWY, IDXX, MNST, PLNT | BUD, STZ, BMBL, TAP |
+
+See [`MONTE_CARLO_REPORT.md`](MONTE_CARLO_REPORT.md) and the [interactive dashboard](results/maps/monte_carlo_dashboard.html).
+
+## Novel theses (not in original 28-stock basket)
 
 Six underexplored angles with **18 different tickers**: TRUP, WMG, PLAY, MODG, HAS, MTCH (contrarian), CHWY, AFRM, and more.
 
