@@ -1,0 +1,29 @@
+theme,metric,value,year,source,url,note
+sober_social,gen_z_want_alcohol_optional_settings_pct,73.0,2026,Harris Poll Gen Z Weekend Report,https://theharrispoll.com/wp-content/uploads/2026/07/The-Gen-Z-Weekend-Report-July-2026.pdf,
+sober_social,gen_z_prefer_daytime_over_nighttime_pct,54.0,2026,Harris Poll,https://theharrispoll.com/wp-content/uploads/2026/07/The-Gen-Z-Weekend-Report-July-2026.pdf,
+sober_social,gen_z_avoid_loud_crowded_spaces_pct,38.0,2026,Harris Poll,https://theharrispoll.com/wp-content/uploads/2026/07/The-Gen-Z-Weekend-Report-July-2026.pdf,
+sober_social,gen_z_plan_visit_sober_bar_pct,41.0,2025,NCSolutions/Circana,https://www.lsnglobal.com/micro-trends/article/31712/sober-social-fix,vs 22% general population
+sober_social,net_decline_clubbing_dancing_yoy_pct,-36.0,2025,Morning Consult June 2025,https://www.whitehutchinson.com/news/lenews/2025/september/article105.shtml,U.S. adults doing less vs prior year
+sober_social,net_decline_bar_hopping_yoy_pct,-35.0,2025,Morning Consult,https://www.whitehutchinson.com/news/lenews/2025/september/article105.shtml,
+pet_connection,gen_z_vet_visit_few_times_per_year_pct,71.0,2026,Rover Pet Parenting Report,https://www.rover.com/blog/pet-parenting-trends/,
+pet_connection,gen_z_pet_participates_in_sports_pct,30.0,2026,Rover,https://www.rover.com/blog/pet-parenting-trends/,
+pet_connection,gen_z_pet_attends_parties_pct,24.0,2026,Rover,https://www.rover.com/blog/pet-parenting-trends/,
+pet_connection,under_40_share_of_new_pet_insurance_policies_pct,70.0,2025,NAPHIA/APPA via industry synthesis,https://insurnest.com/blog/millennial-gen-z-pet-insurance-mga-revenue/,
+pet_connection,trupanion_enrolled_pets,1096173.0,2025,Trupanion Q4 2025 earnings,https://www.nasdaq.com/press-release/trupanion-reports-fourth-quarter-full-year-2025-results-2026-02-12,
+swipe_fatigue,gen_z_dating_app_burnout_pct,79.0,2024,Forbes Health/OnePoll,https://www.forbes.com/health/dating/dating-app-fatigue/,
+swipe_fatigue,tinder_mau_decline_q2_2026_pct,-7.0,2026,Match Group Q2 2026 earnings call,https://techcrunch.com/2026/08/05/as-gen-z-reconsiders-dating-apps-tinders-irl-events-expand-to-dozens-more-cities/,
+swipe_fatigue,gen_z_18_29_met_partner_irl_pct,77.0,2025,Hims Gen Z Love survey,https://grass.camp/en-US/blog/hobby-based-dating-anti-swipe-2026-gen-z,Cited in hobby-dating analysis
+swipe_fatigue,match_group_paying_users_decline_q4_2025_pct,-5.0,2025,Match Group Q4 2025,https://www.dorelish.com/the-edit/2026/7/8/swipe-fatigue-is-now-showing-up-in-the-data-not-just-the-vibes,
+analog_economy,us_vinyl_revenue_usd_b,1.04,2025,RIAA 2025 Year-End Report,https://www.billboard.com/pro/riaa-2025-music-report-revenue-streaming-vinyl/,+9.3% YoY; 46.8M units
+analog_economy,gen_z_vinyl_buy_at_least_monthly_pct,76.0,2025,Vinyl Alliance global survey,https://www.musicweek.com/labels/read/vinyl-alliance-says-gen-z-is-now-the-driving-force-behind-the-format-s-popularity/091294,18-24 cohort
+analog_economy,gen_z_want_more_irl_self_expression_pct,82.0,2025,Dayton Daily News / Gen Z survey synthesis,https://www.daytondailynews.com/lifestyles/the-return-of-board-games-why-gen-z-loves-rolling-the-dice-on-nostalgia/article_3246259e-5649-5d71-9202-062cc8f048ee.html,Board game revival article
+analog_economy,board_games_market_sales_increase_pct,20.0,2024,Market Research Future,https://www.marketresearchfuture.com/reports/board-games-market-12473,Approximate annual sales increase
+sleep_economy,gen_z_mental_wellness_top_night_out_factor_pct,24.0,2025,Morning Consult,https://www.whitehutchinson.com/news/lenews/2025/september/article105.shtml,+8pp vs all adults
+sleep_economy,gen_z_feel_guilty_after_night_out_disrupts_fitness_pct,55.9,2025,OriGym UK survey,https://www.origym.co.uk/blog/why-gen-z-choose-wellness-over-nights-out/,18-29 cohort
+sleep_economy,gen_z_drawn_to_fitness_over_nightlife_pct,43.0,2025,OriGym UK survey,https://www.origym.co.uk/blog/why-gen-z-choose-wellness-over-nights-out/,vs 17% prefer drinking/nightlife
+home_social,gen_z_staying_in_weekend_top_activity_pct,74.0,2026,Harris Poll,https://theharrispoll.com/wp-content/uploads/2026/07/The-Gen-Z-Weekend-Report-July-2026.pdf,
+home_social,gen_z_hosting_friends_at_home_pct,48.0,2026,Harris Poll,https://theharrispoll.com/wp-content/uploads/2026/07/The-Gen-Z-Weekend-Report-July-2026.pdf,Preferred spend allocation
+home_social,gen_z_hobby_class_creative_activity_spend_pct,54.0,2026,Harris Poll,https://theharrispoll.com/wp-content/uploads/2026/07/The-Gen-Z-Weekend-Report-July-2026.pdf,
+hobby_dating,pickleball_court_growth_2023_2025_pct,50.0,2025,Industry estimates / GRASS,https://grass.camp/en-US/blog/hobby-based-dating-anti-swipe-2026-gen-z,U.S. courts
+competitive_social,topgolf_consumer_bay_sss_q3_2025_pct,2.4,2025,MODG Q3 2025 earnings call,https://www.prnewswire.com/news-releases/topgolf-callaway-brands-announces-third-quarter-2025-results-302607773.html,1-2 bay consumer segment
+competitive_social,dave_busters_venues_north_america,243.0,2026,PLAY Q4 FY2025 8-K,https://www.sec.gov/Archives/edgar/data/1525769/000152576926000006/play-2025q4er8kxexx991.htm,179 D&B + 64 Main Event
