@@ -2,6 +2,8 @@
 
 A county-focused companion to the national `project3_cdc_mortality` analysis. This folder maps **98 census tracts** in Charleston County (FIPS **45019**) using official CDC, Census, and County Health Rankings data, documents **eight major county-wide issues** with quantitative evidence, and proposes **evidence-based interventions** for each.
 
+**Full research paper:** [`RESEARCH_PAPER.md`](RESEARCH_PAPER.md) — comprehensive tract-level analysis with critical evaluation of eight policy claims, literature-backed solutions graded by evidence strength, methods, results, discussion, and references (~6,800 words).
+
 ## Quick start — interactive maps
 
 Open **`results/maps/index.html`** in a browser for 15 tract-level choropleth maps:
