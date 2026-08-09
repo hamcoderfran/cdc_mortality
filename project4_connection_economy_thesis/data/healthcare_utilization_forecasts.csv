@@ -1,0 +1,7 @@
+source,metric,value,url,year,note
+Sg2/Vizient Impact of Change 2025,inpatient_discharge_growth_10yr_pct,5.0,https://www.vizientinc.com/newsroom/news-releases/2025/sg2-forecasts-18-percent-growth-in-outpatient-care-5-percent-inpatient-care,,
+Sg2/Vizient Impact of Change 2025,outpatient_volume_growth_10yr_pct,18.0,https://www.vizientinc.com/newsroom/news-releases/2025/sg2-forecasts-18-percent-growth-in-outpatient-care-5-percent-inpatient-care,,
+Sg2/Vizient Impact of Change 2025,post_acute_care_growth_10yr_pct,31.0,https://www.vizientinc.com/newsroom/news-releases/2025/sg2-forecasts-18-percent-growth-in-outpatient-care-5-percent-inpatient-care,,
+Sg2/Vizient Impact of Change 2025,population_65_plus_growth_10yr_pct,32.0,https://www.sg2.com/blog/2025/impact-of-change-service-line-insights,,
+CMS/NHE Projections,nhe_avg_annual_growth_through_2033_pct,5.8,https://www.cms.gov/data-research/projections,,
+CDC MMWR adolescent ED visits,adolescent_drug_overdose_ed_vs_2019_baseline_vr,1.1,https://www.cdc.gov/mmwr/volumes/72/wr/mm7219a1.htm,2023.0,Fall 2022 visit ratio vs 2019 prepandemic baseline (higher)

@@ -1,0 +1,62 @@
+{
+  "thesis": "Hospital and experience-based stocks will rise as youth pursue real connections and in-person fulfillment",
+  "youth_connection_evidence_count": 10,
+  "healthcare_forecast_rows": 6,
+  "experience_economy_rows": 5,
+  "basket_performance": [
+    {
+      "basket": "hospital_2015_to_present",
+      "period_start": "2015-01-02",
+      "period_end": "2026-08-07",
+      "n_tickers": 6,
+      "tickers": "HCA,THC,UHS,CYH,EHC,ACHC",
+      "total_return_pct": 208.65,
+      "cagr_pct": 10.21
+    },
+    {
+      "basket": "experience_2015_to_present",
+      "period_start": "2015-01-02",
+      "period_end": "2026-08-07",
+      "n_tickers": 13,
+      "tickers": "LYV,MTN,EXPE,BKNG,RCL,CCL,PLNT,MSGS,MANU,FUN,DKNG,DIS,NCLH",
+      "total_return_pct": 167.21,
+      "cagr_pct": 8.85
+    },
+    {
+      "basket": "hospital_2019_to_present",
+      "period_start": "2019-01-02",
+      "period_end": "2026-08-07",
+      "n_tickers": 6,
+      "tickers": "HCA,THC,UHS,CYH,EHC,ACHC",
+      "total_return_pct": 314.75,
+      "cagr_pct": 20.6
+    },
+    {
+      "basket": "experience_2019_to_present",
+      "period_start": "2019-01-02",
+      "period_end": "2026-08-07",
+      "n_tickers": 13,
+      "tickers": "LYV,MTN,EXPE,BKNG,RCL,CCL,PLNT,MSGS,MANU,FUN,DKNG,DIS,NCLH",
+      "total_return_pct": 74.47,
+      "cagr_pct": 7.6
+    },
+    {
+      "basket": "hospital_2022_to_present",
+      "period_start": "2022-01-03",
+      "period_end": "2026-08-07",
+      "n_tickers": 6,
+      "tickers": "HCA,THC,UHS,CYH,EHC,ACHC",
+      "total_return_pct": 58.66,
+      "cagr_pct": 10.58
+    },
+    {
+      "basket": "experience_2022_to_present",
+      "period_start": "2022-01-03",
+      "period_end": "2026-08-07",
+      "n_tickers": 13,
+      "tickers": "LYV,MTN,EXPE,BKNG,RCL,CCL,PLNT,MSGS,MANU,FUN,DKNG,DIS,NCLH",
+      "total_return_pct": 42.54,
+      "cagr_pct": 8.03
+    }
+  ]
+}
