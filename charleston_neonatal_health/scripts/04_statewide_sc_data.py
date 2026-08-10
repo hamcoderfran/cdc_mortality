@@ -12,7 +12,8 @@ Primary sources (every value traceable):
   - SC DPH Vital Metrics Summary 2023 (VMS), Tables F-3 (infant mortality) and
     C-27 (low birthweight), https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
   - County Health Rankings & Roadmaps 2025 (uninsured, poverty, PM2.5, housing,
-    food environment, median income) — reused from ../../data/merged_county_data.csv
+    food environment, median income) — reused from
+    ../../project3_cdc_mortality/data/merged_county_data.csv
   - March of Dimes "Where You Live Matters: Maternity Care Deserts in South
     Carolina" (2023) and "Nowhere to Go" (2024) reports
   - USC Institute for Families in Society / SC Birth Outcomes Initiative (SCBOI)
@@ -30,7 +31,9 @@ import os
 import pandas as pd
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
-PARENT_DATA = os.path.join(os.path.dirname(__file__), "..", "..", "data")
+PARENT_DATA = os.path.join(
+    os.path.dirname(__file__), "..", "..", "project3_cdc_mortality", "data"
+)
 VMS_PDF = "https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf"
 
 # Table F-3: Infant Mortality and Infant Mortality Rates, SC DPH VMS 2023, p.100
