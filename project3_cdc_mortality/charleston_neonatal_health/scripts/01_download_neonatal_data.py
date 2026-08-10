@@ -45,6 +45,29 @@ SC_CHP = "https://dataviz.dph.sc.gov/chp/"
 CHR = "https://www.countyhealthrankings.org/health-data/south-carolina/charleston"
 MUSC_NICU = "https://musckids.org/health-care-services/childrens-health/neonatal-intensive-care"
 HP2030 = "https://health.gov/healthypeople/objectives-and-data/browse-objectives/pregnancy-and-childbirth"
+SCMMMRC_2026 = "https://dph.sc.gov/sites/scdph/files/Library/00229-ENG-CR.pdf"
+SCMMMRC_2025 = "https://www.scstatehouse.gov/reports/DeptofPublicHealth/SCMMMRC%20Legislative%20Report%202025.pdf"
+MOD_MCD_SC = "https://www.marchofdimes.org/peristats/assets/s3/reports/mcd/Maternity-Care-Report-SouthCarolina.pdf"
+MOD_MCD_2024 = "https://www.marchofdimes.org/peristats/assets/s3/reports/2024-Maternity-Care-Report.pdf"
+SCBOI_2022 = "https://schealthviz.sc.edu/media/SCBOI_annual_IFS_011222.pdf"
+USC_IMPH_SNAPSHOT = "https://www.schealthviz.sc.edu/media/downloads/SC%20IMPH%20Health%20Policy%20Summit%20-%20MCH%20Data%20Snapshot.pdf"
+FIERCE_HEALTHCARE_OB = "https://www.fiercehealthcare.com/providers/most-states-saw-hospital-obstetric-service-shutdowns-2010-2022-rural-states-hit-hardest"
+POST_COURIER_LAURENS = "https://www.postandcourier.com/news/rural-hospitals-maternity-care-sc/article_a03a1884-d8eb-11ef-88cd-079658524226.html"
+HRSA_TVIS_NAS = "https://mchb.tvisdata.hrsa.gov/Narratives/ExecutiveSummary/a933ee78-b3e1-42ff-bda0-09cba7e29967"
+MAIN_SCIENCEDIRECT_NAS = "https://www.sciencedirect.com/science/article/abs/pii/S221307641930274X"
+PEDIATRIX_HORRY_NAS = "https://www.pediatrix.com/about/for-media/news/south-carolinas-horry-county-leads-state-in-number-of-drug-dependent-babies"
+CDC_BF_REPORT_CARD_2022 = "https://restoredcdc.org/www.cdc.gov/breastfeeding-data/breastfeeding-report-card/index.html"
+SC_WIC_BF_FACTSHEET = "https://dph.sc.gov/sites/scdph/files/Library/00112-ENG-CR.pdf"
+BLACKHEALTH_SC_DOULA = "https://www.blackhealth.org/medicaid/south-carolina/"
+SC_H3108_DOULA_BILL = "https://www.scstatehouse.gov/sess126_2025-2026/bills/3108.htm"
+CRADLE_TRIAL_PMC = "https://pmc.ncbi.nlm.nih.gov/articles/PMC9729420/"
+CRADLE_TRIAL_REGISTRY = "https://clinicaltrials.gov/study/NCT02640638"
+PICKLESIMER_2012_AJOG = "https://www.ajog.org/article/S0002-9378(12)00131-7/fulltext"
+GAREAU_2016_CENTERING = "https://centeringhealthcare.org/news/new-study-finds-medicaid-savings-and-better-outcomes-through-centeringpregnancy"
+ROBINSON_2018_JWH = "https://doi.org/10.1089/jwh.2018.7469"
+COCHRANE_CONTINUOUS_SUPPORT = "https://www.cochrane.org/evidence/CD003766_continuous-support-women-during-childbirth"
+NFP_EVIDENCE_SUMMARY = "https://evidencebasedprograms.org/document/nurse-family-partnership-nfp-evidence-summary/"
+NFP_PROJECTED_OUTCOMES = "https://pmc.ncbi.nlm.nih.gov/articles/PMC4512284/"
 
 
 def fetch_places_tracts():
@@ -219,6 +242,75 @@ def build_county_indicators():
         ("infant_mortality_target_per_1000", 5.0, "rate", 2030, "US target", "Healthy People 2030", HP2030, "MICH-01"),
         ("adequate_prenatal_care_target_pct", 80.5, "percent", 2030, "US target", "Healthy People 2030", HP2030, "MICH-08"),
         ("low_risk_cesarean_target_pct", 23.6, "percent", 2030, "US target", "Healthy People 2030", HP2030, "MICH-06"),
+
+        # --- AUDIT ADDITION: Maternal mortality & morbidity review (SCMMMRC) ---
+        ("pregnancy_related_mortality_rate_2023", 29.5, "rate_per_100k", 2023, "South Carolina", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026, "Lowest since surveillance began"),
+        ("pregnancy_related_mortality_rate_2021", 47.2, "rate_per_100k", 2021, "South Carolina", "SCMMMRC 2025 Legislative Brief", SCMMMRC_2025, "PRMR"),
+        ("pregnancy_related_mortality_nhb_2018_2023_avg", 59.6, "rate_per_100k", "2018-2023", "South Carolina", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026, "Non-Hispanic Black"),
+        ("pregnancy_related_mortality_nhw_2018_2023_avg", 25.3, "rate_per_100k", "2018-2023", "South Carolina", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026, "Non-Hispanic White"),
+        ("pregnancy_related_mortality_hispanic_2018_2023_avg", 24.0, "rate_per_100k", "2018-2023", "South Carolina", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026, "Hispanic"),
+        ("pregnancy_related_mortality_black_white_ratio_2023", 2.0, "ratio", 2023, "South Carolina", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026, "NHB still 2x NHW in 2023"),
+        ("pregnancy_related_mortality_rural_2022_2023", 48.1, "rate_per_100k", "2022-2023", "South Carolina", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026, "Rural counties"),
+        ("pregnancy_related_mortality_urban_2022_2023", 28.7, "rate_per_100k", "2022-2023", "South Carolina", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026, "Urban counties"),
+        ("pregnancy_related_mortality_medicaid_2023", 37.8, "rate_per_100k", 2023, "South Carolina", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026, "Medicaid payer; down from 51.0 in 2022 after 12-mo extension"),
+        ("pregnancy_related_deaths_preventable_pct_2022_2023", 88.2, "percent", "2022-2023", "South Carolina", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026, "Overall preventability"),
+        ("pregnancy_related_deaths_preventable_pct_nhb", 88.9, "percent", "2018-2023", "South Carolina", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026, "vs 78.6% NHW"),
+        ("pregnancy_related_deaths_mh_sud_preventable_pct", 100.0, "percent", "2022-2023", "South Carolina", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026, "Mental health/SUD, hypertension, hemorrhage all 100% preventable"),
+        ("sc_national_maternal_mortality_rank", 8, "rank", 2023, "South Carolina", "SC DPH Pregnancy & Postpartum Health page", "https://dph.sc.gov/health-wellness/family-planning/pregnancy/pregnancy-and-postpartum-health", "8th highest in US"),
+
+        # --- AUDIT ADDITION: Maternity care deserts & OB unit closures ---
+        ("maternity_care_desert_pct_counties", 13.0, "percent", 2024, "South Carolina", "March of Dimes Maternity Care Deserts Report", MOD_MCD_SC, "13.0% of SC counties vs 32.6% US"),
+        ("counties_no_birth_hospital_pct", 45.7, "percent", 2024, "South Carolina", "March of Dimes Maternity Care Deserts Report", MOD_MCD_SC, "No hospital/birth center offering maternity care"),
+        ("births_in_maternity_care_deserts_pct", 2.6, "percent", 2022, "South Carolina", "March of Dimes Maternity Care Deserts Report", MOD_MCD_SC, "1,493 babies born in deserts"),
+        ("no_birthing_hospital_30min_pct", 8.7, "percent", 2022, "South Carolina", "March of Dimes Maternity Care Deserts Report", MOD_MCD_SC, "vs 9.7% US"),
+        ("rural_over_30min_to_birthing_hospital_pct", 100.0, "percent", 2022, "South Carolina rural", "March of Dimes Maternity Care Deserts Report", MOD_MCD_SC, "vs 8.5% urban"),
+        ("avg_distance_to_birthing_hospital_miles", 9.7, "miles", 2022, "South Carolina", "March of Dimes Maternity Care Deserts Report", MOD_MCD_SC, "urban avg; rural avg 25.2 mi"),
+        ("inadequate_pnc_pct_mcd_report", 16.7, "percent", 2021, "South Carolina", "March of Dimes Maternity Care Deserts Report", MOD_MCD_SC, "vs 14.8% US"),
+        ("chronic_health_burden_pct", 44.5, "percent", 2021, "South Carolina", "March of Dimes Maternity Care Deserts Report", MOD_MCD_SC, "1+ chronic condition, vs 37.8% US"),
+        ("chronic_condition_preterm_relative_risk_increase_pct", 54.0, "percent", 2021, "South Carolina", "March of Dimes Maternity Care Deserts Report", MOD_MCD_SC, "Increased PTB likelihood with 1+ chronic condition"),
+        ("ob_units_closed_since_2011", 11, "count", 2020, "South Carolina", "SC Birth Outcomes Initiative Annual Report", SCBOI_2022, "Only 4 new units opened in same period"),
+        ("birthing_hospitals_2011", 47, "count", 2011, "South Carolina", "SC Birth Outcomes Initiative Annual Report", SCBOI_2022, "Start of SCBOI"),
+        ("birthing_hospitals_2020", 38, "count", 2020, "South Carolina", "SC Birth Outcomes Initiative Annual Report", SCBOI_2022, "9-hospital net decline in 9 years"),
+        ("labor_delivery_units_closed_since_2012", 13, "count", 2024, "South Carolina", "USC IMPH MCH Data Snapshot", USC_IMPH_SNAPSHOT, "1 in 4 hospitals no longer a birthing facility"),
+        ("rural_hospitals_lost_ob_pct_2010_2022", 46.2, "percent", 2022, "South Carolina", "Fierce Healthcare / peer-reviewed OB closures study", FIERCE_HEALTHCARE_OB, "Tied with PA for among worst in US"),
+        ("roper_st_francis_mt_pleasant_ob_closed", "December 2020", "event", 2020, "Charleston County (Mount Pleasant)", "SC Birth Outcomes Initiative Annual Report", SCBOI_2022, "OB closure within Charleston metro area"),
+        ("georgetown_memorial_ob_closed", "September 2020", "event", 2020, "Georgetown County", "SC Birth Outcomes Initiative Annual Report", SCBOI_2022, "Adjacent Lowcountry county"),
+        ("laurens_county_ob_closed", "May 2023", "event", 2023, "Laurens County", "Post and Courier / Prisma Health", POST_COURIER_LAURENS, "Staffing shortage; patients now travel ~1hr to Greenville"),
+        ("kershaw_medical_center_ob_closed", "January 2025", "event", 2025, "Kershaw County", "Post and Courier / MUSC", POST_COURIER_LAURENS, "MUSC redirecting to MUSC Northeast, 35 min away"),
+        ("high_need_mvi_tertile_counties", "Abbeville, Allendale, Barnwell, Greenwood, Laurens, Lee, McCormick, Williamsburg", "list", 2024, "South Carolina", "USC Institute for Families in Society MCH Data Snapshot", USC_IMPH_SNAPSHOT, "Lowest tertile = highest need"),
+        ("sc_maternal_vulnerability_index_rank", "Top 5 nationally", "rank", 2024, "South Carolina", "USC IMPH MCH Data Snapshot / Surgo Maternal Vulnerability Index", USC_IMPH_SNAPSHOT, "Driven by high physical health and SES needs"),
+
+        # --- AUDIT ADDITION: Neonatal abstinence syndrome (NAS) / substance exposure ---
+        ("nas_rate_sc_2017_2019", 5.1, "rate_per_1000", "2017-2019", "South Carolina", "HRSA Title V Information System (TVIS)", HRSA_TVIS_NAS, "Up 21.4% from 4.2 in 2014-2016"),
+        ("nas_rate_sc_2014_2016", 4.2, "rate_per_1000", "2014-2016", "South Carolina", "HRSA Title V Information System (TVIS)", HRSA_TVIS_NAS, "Baseline period"),
+        ("nas_rate_medicaid_2019", 8.2, "rate_per_1000", 2019, "South Carolina", "HRSA Title V Information System (TVIS)", HRSA_TVIS_NAS, "5.5x the private-insurance rate"),
+        ("nas_rate_private_insurance_2019", 1.5, "rate_per_1000", 2019, "South Carolina", "HRSA Title V Information System (TVIS)", HRSA_TVIS_NAS, "Comparator"),
+        ("nas_rate_horry_county", 8.0, "rate_per_1000", "3-yr trailing", "Horry County", "Pediatrix/MEDNAX news report", PEDIATRIX_HORRY_NAS, "Highest in SC for 3 consecutive years"),
+        ("nas_rate_greenville_2000_2014", 8.22, "rate_per_1000", "2000-2014", "Greenville County", "MAiN model study (ScienceDirect)", MAIN_SCIENCEDIRECT_NAS, "2nd highest incidence in SC in period studied"),
+        ("nas_region_us_rank", 3, "rank", 2018, "South Atlantic region (incl. SC)", "MAiN model study (ScienceDirect)", MAIN_SCIENCEDIRECT_NAS, "3rd highest NAS rate of US Census regions"),
+
+        # --- AUDIT ADDITION: Breastfeeding ---
+        ("breastfeeding_ever_pct_sc", 80.6, "percent", 2022, "South Carolina", "CDC Breastfeeding Report Card 2022", CDC_BF_REPORT_CARD_2022, "Ever breastfed, last CDC report card published"),
+        ("breastfeeding_any_6mo_pct_sc", 46.6, "percent", 2022, "South Carolina", "CDC Breastfeeding Report Card 2022", CDC_BF_REPORT_CARD_2022, "Any breastfeeding at 6 months"),
+        ("breastfeeding_exclusive_6mo_pct_sc", 26.0, "percent", 2022, "South Carolina", "CDC Breastfeeding Report Card 2022", CDC_BF_REPORT_CARD_2022, "Exclusive breastfeeding at 6 months"),
+        ("wic_breastfeeding_rate_sc_2024", 30.0, "percent", 2024, "South Carolina (WIC)", "SC DPH WIC Breastfeeding Rates Fact Sheet", SC_WIC_BF_FACTSHEET, "Highest recorded in recent years, Aug 2024"),
+        ("wic_breastfeeding_rate_black_infants", 23.6, "percent", 2024, "South Carolina (WIC)", "SC DPH WIC Breastfeeding Rates Fact Sheet", SC_WIC_BF_FACTSHEET, "Lowest of racial groups in WIC program"),
+        ("wic_breastfeeding_rate_asian_infants", 42.6, "percent", 2024, "South Carolina (WIC)", "SC DPH WIC Breastfeeding Rates Fact Sheet", SC_WIC_BF_FACTSHEET, "Highest of racial groups in WIC program"),
+
+        # --- AUDIT ADDITION: Doula policy timeline ---
+        ("doula_medicaid_pilot_start", "September 2024", "event", 2024, "South Carolina", "SC Healthy Connections Medicaid / Black Health SC", BLACKHEALTH_SC_DOULA, "24-month pilot under H.3592 (2023); Upstate/Midlands/Lowcountry regions"),
+        ("doula_medicaid_pilot_reimbursement_per_package", 1000, "dollars", 2024, "South Carolina", "SC Healthy Connections Medicaid / Black Health SC", BLACKHEALTH_SC_DOULA, "Up to $1,000 per full perinatal package"),
+        ("doula_mandate_effective_date", "January 1, 2026", "event", 2026, "South Carolina", "SC Bill 3108 / Bill 42 (2025-2026 session)", SC_H3108_DOULA_BILL, "Mandatory Medicaid + private insurance coverage"),
+        ("doula_mandate_minimum_reimbursement", 850, "dollars", 2026, "South Carolina", "SC Bill 3108 (2025-2026 session)", SC_H3108_DOULA_BILL, "Minimum reimbursement per pregnancy, antepartum through 12mo postpartum"),
+
+        # --- AUDIT ADDITION: Group prenatal care evidence (mixed / evolving evidence base) ---
+        ("cradle_rct_ptb_group_care_pct", 10.4, "percent", "2016-2021", "South Carolina (CRADLE RCT, Upstate)", "CRADLE Trial (Clemson Univ./Prisma Health), PMC9729420", CRADLE_TRIAL_PMC, "n=1176; NOT significantly different from individual care"),
+        ("cradle_rct_ptb_individual_care_pct", 8.7, "percent", "2016-2021", "South Carolina (CRADLE RCT, Upstate)", "CRADLE Trial (Clemson Univ./Prisma Health), PMC9729420", CRADLE_TRIAL_PMC, "n=1174; OR 1.22, 95% CI 0.92-1.63, p=0.17"),
+        ("cradle_rct_lbw_black_high_attendance_pct", 8.3, "percent", "2016-2021", "South Carolina (CRADLE RCT, Upstate)", "CRADLE Trial, PMC9729420", CRADLE_TRIAL_PMC, "Per-compliance analysis; benefit only at high attendance"),
+        ("picklesimer_2012_ptb_group_pct", 9.8, "percent", "2009-2010", "Greenville County (retrospective cohort)", "Picklesimer et al. 2012, AJOG", PICKLESIMER_2012_AJOG, "33% relative reduction vs traditional care (14.8%)"),
+        ("picklesimer_2012_ptb_traditional_pct", 14.8, "percent", "2009-2010", "Greenville County (retrospective cohort)", "Picklesimer et al. 2012, AJOG", PICKLESIMER_2012_AJOG, "Comparator, Medicaid-covered patients"),
+        ("gareau_2016_ptb_relative_risk_reduction_pct", 36.0, "percent", "2010-2014", "South Carolina (5-yr Medicaid cohort)", "Gareau et al. 2016, Matern Child Health J / Centering Healthcare Institute", GAREAU_2016_CENTERING, "$22,667 average savings per prevented preterm birth"),
+        ("robinson_2018_ptb_risk_ratio", 0.38, "risk_ratio", "2009-2014", "South Carolina (single institution cohort)", "Robinson et al. 2018, J Womens Health", ROBINSON_2018_JWH, "95% CI 0.31-0.47; largest effect among NH White mothers"),
     ]
     cols = [
         "indicator",
@@ -290,6 +382,23 @@ def build_factor_matrix():
         ("tract_transport", "transportation_barrier_pct", "proxy", "CDC PLACES 2025", "https://data.cdc.gov/PLACES"),
         ("state_maternal_safety", "maternal_mortality_per_100k", "context", "March of Dimes Report Card", MOD_REPORT),
         ("state_maternal_safety", "severe_maternal_morbidity_per_10k", "context", "March of Dimes Report Card", MOD_REPORT),
+        ("maternal_mortality_review", "pregnancy_related_mortality_rate_2023", "direct", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026),
+        ("maternal_mortality_review", "pregnancy_related_deaths_preventable_pct_2022_2023", "direct", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026),
+        ("maternal_mortality_equity", "pregnancy_related_mortality_black_white_ratio_2023", "direct", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026),
+        ("maternal_mortality_rurality", "pregnancy_related_mortality_rural_2022_2023", "direct", "SCMMMRC 2026 Legislative Brief", SCMMMRC_2026),
+        ("maternity_care_access", "maternity_care_desert_pct_counties", "direct", "March of Dimes Maternity Care Deserts SC", MOD_MCD_SC),
+        ("maternity_care_access", "ob_units_closed_since_2011", "direct", "SC Birth Outcomes Initiative Annual Report", SCBOI_2022),
+        ("maternity_care_access", "rural_hospitals_lost_ob_pct_2010_2022", "direct", "Fierce Healthcare / peer-reviewed study", FIERCE_HEALTHCARE_OB),
+        ("maternity_care_access_charleston", "roper_st_francis_mt_pleasant_ob_closed", "qualitative", "SC Birth Outcomes Initiative Annual Report", SCBOI_2022),
+        ("substance_exposed_newborns", "nas_rate_sc_2017_2019", "direct", "HRSA TVIS", HRSA_TVIS_NAS),
+        ("substance_exposed_newborns", "nas_rate_medicaid_2019", "direct", "HRSA TVIS", HRSA_TVIS_NAS),
+        ("breastfeeding", "breastfeeding_ever_pct_sc", "direct", "CDC Breastfeeding Report Card 2022", CDC_BF_REPORT_CARD_2022),
+        ("breastfeeding_equity", "wic_breastfeeding_rate_black_infants", "direct", "SC DPH WIC Breastfeeding Fact Sheet", SC_WIC_BF_FACTSHEET),
+        ("doula_policy", "doula_medicaid_pilot_start", "qualitative", "SC Healthy Connections Medicaid", BLACKHEALTH_SC_DOULA),
+        ("doula_policy", "doula_mandate_effective_date", "qualitative", "SC Bill 3108", SC_H3108_DOULA_BILL),
+        ("group_prenatal_care_evidence", "cradle_rct_ptb_group_care_pct", "direct_rct", "CRADLE Trial, PMC9729420", CRADLE_TRIAL_PMC),
+        ("group_prenatal_care_evidence", "picklesimer_2012_ptb_group_pct", "direct_cohort", "Picklesimer et al. 2012 AJOG", PICKLESIMER_2012_AJOG),
+        ("group_prenatal_care_evidence", "gareau_2016_ptb_relative_risk_reduction_pct", "direct_cohort", "Gareau et al. 2016 MCHJ", GAREAU_2016_CENTERING),
     ]
     df = pd.DataFrame(
         factors,
