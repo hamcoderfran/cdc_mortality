@@ -1,0 +1,138 @@
+{
+  "county_fips": "45019",
+  "county_name": "Charleston County, SC",
+  "analysis_date": "2026-08-10",
+  "key_findings": {
+    "preterm_birth_pct_2024": 10.5,
+    "preterm_grade": "D+",
+    "lbw_pct_2023": 9.1,
+    "lbw_black_white_ratio": 2.84,
+    "infant_mortality_vms_2023": 4.3,
+    "infant_mortality_periStats_2023": 6.2,
+    "infant_mortality_trend_pct_increase_2013_2023": 48.0,
+    "inadequate_prenatal_care_pct_2024": 14.5,
+    "medicaid_births_pct_2023": 50.3,
+    "wic_enrollment_pct_2023": 34.6,
+    "black_infant_mortality_3yr_avg": 13.7,
+    "white_infant_mortality_3yr_avg": null
+  },
+  "charleston_vs_sc": {
+    "preterm": {
+      "charleston": 10.5,
+      "sc": 11.6
+    },
+    "infant_mortality": {
+      "charleston_vms": 4.3,
+      "sc": 7.0
+    }
+  },
+  "top_10_highest_risk_tracts": [
+    {
+      "tract_fips": "45019003400",
+      "neonatal_risk_proxy_score": 0.9481292517006802,
+      "RPL_THEMES": 0.9913,
+      "food_insecurity_pct": 37.1
+    },
+    {
+      "tract_fips": "45019005500",
+      "neonatal_risk_proxy_score": 0.9175170068027211,
+      "RPL_THEMES": 0.9101,
+      "food_insecurity_pct": 47.2
+    },
+    {
+      "tract_fips": "45019004300",
+      "neonatal_risk_proxy_score": 0.8996598639455783,
+      "RPL_THEMES": 0.8631,
+      "food_insecurity_pct": 50.6
+    },
+    {
+      "tract_fips": "45019003104",
+      "neonatal_risk_proxy_score": 0.8971088435374152,
+      "RPL_THEMES": 0.9699,
+      "food_insecurity_pct": 31.9
+    },
+    {
+      "tract_fips": "45019003105",
+      "neonatal_risk_proxy_score": 0.8971088435374149,
+      "RPL_THEMES": 0.9227,
+      "food_insecurity_pct": 36.9
+    },
+    {
+      "tract_fips": "45019003116",
+      "neonatal_risk_proxy_score": 0.8826530612244897,
+      "RPL_THEMES": 0.8571,
+      "food_insecurity_pct": 25.8
+    },
+    {
+      "tract_fips": "45019003115",
+      "neonatal_risk_proxy_score": 0.8818027210884353,
+      "RPL_THEMES": 0.9433,
+      "food_insecurity_pct": 24.7
+    },
+    {
+      "tract_fips": "45019005400",
+      "neonatal_risk_proxy_score": 0.8605442176870749,
+      "RPL_THEMES": 0.796,
+      "food_insecurity_pct": 30.8
+    },
+    {
+      "tract_fips": "45019003110",
+      "neonatal_risk_proxy_score": 0.8307823129251699,
+      "RPL_THEMES": 0.9278,
+      "food_insecurity_pct": 28.8
+    },
+    {
+      "tract_fips": "45019005300",
+      "neonatal_risk_proxy_score": 0.8299319727891157,
+      "RPL_THEMES": 0.7254,
+      "food_insecurity_pct": 25.2
+    }
+  ],
+  "racial_disparities": [
+    {
+      "disparity": "low birthweight",
+      "white_or_reference": 6.1,
+      "black_or_comparison": 17.3,
+      "ratio_black_to_white": 2.84,
+      "absolute_gap": 11.2,
+      "description": "Black/White LBW ratio"
+    },
+    {
+      "disparity": "infant mortality (3-yr avg)",
+      "white_or_reference": 5.3,
+      "black_or_comparison": 13.7,
+      "ratio_black_to_white": 2.58,
+      "absolute_gap": 8.4,
+      "description": "Black/White IMR ratio"
+    },
+    {
+      "disparity": "Medicaid at birth",
+      "white_or_reference": 26.9,
+      "black_or_comparison": 70.3,
+      "ratio_black_to_white": 2.61,
+      "absolute_gap": 43.4,
+      "description": "Black/White Medicaid coverage ratio"
+    },
+    {
+      "disparity": "Inadequate prenatal care (Kotelchuck)",
+      "white_or_reference": 16.9,
+      "black_or_comparison": 36.6,
+      "ratio_black_to_white": 2.17,
+      "absolute_gap": 19.7,
+      "description": "Black/White inadequate PNC ratio"
+    },
+    {
+      "disparity": "Unmarried births",
+      "white_or_reference": 14.1,
+      "black_or_comparison": 73.1,
+      "ratio_black_to_white": 5.18,
+      "absolute_gap": 59.0,
+      "description": "Black/White unmarried birth ratio"
+    }
+  ],
+  "data_limitations": [
+    "Infant/neonatal mortality is published at county level only in SC VMS; tract maps use SDOH proxies.",
+    "VMS 2023 and PeriStats linked data may differ slightly due to residence rules and linkage methods.",
+    "Rates based on fewer than 20 deaths are flagged unreliable in VMS footnotes."
+  ]
+}

@@ -1,0 +1,6 @@
+disparity,white_or_reference,black_or_comparison,ratio_black_to_white,absolute_gap,description
+low birthweight,6.1,17.3,2.84,11.2,Black/White LBW ratio
+infant mortality (3-yr avg),5.3,13.7,2.58,8.4,Black/White IMR ratio
+Medicaid at birth,26.9,70.3,2.61,43.4,Black/White Medicaid coverage ratio
+Inadequate prenatal care (Kotelchuck),16.9,36.6,2.17,19.7,Black/White inadequate PNC ratio
+Unmarried births,14.1,73.1,5.18,59.0,Black/White unmarried birth ratio

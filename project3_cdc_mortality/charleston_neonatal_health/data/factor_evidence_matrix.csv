@@ -1,0 +1,29 @@
+factor_domain,indicator_key,evidence_type,primary_source,source_url
+clinical_outcomes,preterm_birth_pct,direct,March of Dimes + VMS,https://www.marchofdimes.org/peristats/data?creg=45019&lev=1&obj=1&reg=99&slev=6&sreg=45
+clinical_outcomes,low_birthweight_pct,direct,SC DPH VMS Table C-27,https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
+clinical_outcomes,infant_mortality_rate_per_1000,direct,SC DPH VMS Table F-3,https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
+clinical_outcomes,neonatal_mortality_rate_per_1000,direct,SC DPH VMS Table F-4,https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
+racial_equity,lbw_pct_black,direct,SC DPH VMS Table C-27,https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
+racial_equity,infant_mortality_black_per_1000,direct,March of Dimes PeriStats,https://www.marchofdimes.org/peristats/data?creg=45019&lev=1&obj=1&reg=99&slev=6&sreg=45
+racial_equity,medicaid_births_pct_black,direct,SC DPH VMS Table C-35A,https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
+prenatal_access,prenatal_care_inadequate_pct,direct,March of Dimes PeriStats,https://www.marchofdimes.org/peristats/data?creg=45019&lev=1&obj=1&reg=99&slev=6&sreg=45
+prenatal_access,kotelchuck_inadequate_pct_black,direct,SC DPH VMS Table C-11A,https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
+insurance_financing,medicaid_births_pct_all,direct,SC DPH VMS Table C-35,https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
+insurance_financing,self_pay_births_pct,direct,SC DPH VMS Table C-35,https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
+nutrition_wic,wic_during_pregnancy_pct,direct,SC DPH VMS Table C-34,https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
+maternal_nutrition,maternal_obesity_bmi_pct_black,direct,SC DPH VMS Table C-36,https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
+social_support,unmarried_births_pct_black,proxy,SC DPH VMS Table C-21,https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
+adolescent_health,teen_births_under_20_pct,direct,SC DPH VMS Table C-19,https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
+delivery_care,cesarean_delivery_pct,direct,March of Dimes PeriStats,https://www.marchofdimes.org/peristats/data?creg=45019&lev=1&obj=1&reg=99&slev=6&sreg=45
+hospital_capacity,births_occurred_in_county,context,SC DPH VMS Table C-14,https://dph.sc.gov/sites/scdph/files/2025-11/VMS-2023.pdf
+nicu_access,level_iv_nicu,qualitative,MUSC Children's Health,https://musckids.org/health-care-services/childrens-health/neonatal-intensive-care
+environment,pm25_ug_m3,proxy,County Health Rankings,https://www.countyhealthrankings.org/health-data/south-carolina/charleston
+housing,severe_housing_problems_pct,proxy,County Health Rankings,https://www.countyhealthrankings.org/health-data/south-carolina/charleston
+food_access,food_environment_index,proxy,County Health Rankings,https://www.countyhealthrankings.org/health-data/south-carolina/charleston
+insurance_community,uninsured_adults_pct,proxy,County Health Rankings,https://www.countyhealthrankings.org/health-data/south-carolina/charleston
+poverty,child_poverty_pct,proxy,County Health Rankings,https://www.countyhealthrankings.org/health-data/south-carolina/charleston
+tract_svi,RPL_THEMES,proxy,CDC/ATSDR SVI 2022,https://www.atsdr.cdc.gov/placeandhealth/svi/index.html
+tract_food_insecurity,food_insecurity_pct,proxy,CDC PLACES 2025,https://data.cdc.gov/PLACES
+tract_transport,transportation_barrier_pct,proxy,CDC PLACES 2025,https://data.cdc.gov/PLACES
+state_maternal_safety,maternal_mortality_per_100k,context,March of Dimes Report Card,https://www.marchofdimes.org/peristats/reports/south-carolina/report-card
+state_maternal_safety,severe_maternal_morbidity_per_10k,context,March of Dimes Report Card,https://www.marchofdimes.org/peristats/reports/south-carolina/report-card
