@@ -27,3 +27,20 @@ tract_food_insecurity,food_insecurity_pct,proxy,CDC PLACES 2025,https://data.cdc
 tract_transport,transportation_barrier_pct,proxy,CDC PLACES 2025,https://data.cdc.gov/PLACES
 state_maternal_safety,maternal_mortality_per_100k,context,March of Dimes Report Card,https://www.marchofdimes.org/peristats/reports/south-carolina/report-card
 state_maternal_safety,severe_maternal_morbidity_per_10k,context,March of Dimes Report Card,https://www.marchofdimes.org/peristats/reports/south-carolina/report-card
+maternal_mortality_review,pregnancy_related_mortality_rate_2023,direct,SCMMMRC 2026 Legislative Brief,https://dph.sc.gov/sites/scdph/files/Library/00229-ENG-CR.pdf
+maternal_mortality_review,pregnancy_related_deaths_preventable_pct_2022_2023,direct,SCMMMRC 2026 Legislative Brief,https://dph.sc.gov/sites/scdph/files/Library/00229-ENG-CR.pdf
+maternal_mortality_equity,pregnancy_related_mortality_black_white_ratio_2023,direct,SCMMMRC 2026 Legislative Brief,https://dph.sc.gov/sites/scdph/files/Library/00229-ENG-CR.pdf
+maternal_mortality_rurality,pregnancy_related_mortality_rural_2022_2023,direct,SCMMMRC 2026 Legislative Brief,https://dph.sc.gov/sites/scdph/files/Library/00229-ENG-CR.pdf
+maternity_care_access,maternity_care_desert_pct_counties,direct,March of Dimes Maternity Care Deserts SC,https://www.marchofdimes.org/peristats/assets/s3/reports/mcd/Maternity-Care-Report-SouthCarolina.pdf
+maternity_care_access,ob_units_closed_since_2011,direct,SC Birth Outcomes Initiative Annual Report,https://schealthviz.sc.edu/media/SCBOI_annual_IFS_011222.pdf
+maternity_care_access,rural_hospitals_lost_ob_pct_2010_2022,direct,Fierce Healthcare / peer-reviewed study,https://www.fiercehealthcare.com/providers/most-states-saw-hospital-obstetric-service-shutdowns-2010-2022-rural-states-hit-hardest
+maternity_care_access_charleston,roper_st_francis_mt_pleasant_ob_closed,qualitative,SC Birth Outcomes Initiative Annual Report,https://schealthviz.sc.edu/media/SCBOI_annual_IFS_011222.pdf
+substance_exposed_newborns,nas_rate_sc_2017_2019,direct,HRSA TVIS,https://mchb.tvisdata.hrsa.gov/Narratives/ExecutiveSummary/a933ee78-b3e1-42ff-bda0-09cba7e29967
+substance_exposed_newborns,nas_rate_medicaid_2019,direct,HRSA TVIS,https://mchb.tvisdata.hrsa.gov/Narratives/ExecutiveSummary/a933ee78-b3e1-42ff-bda0-09cba7e29967
+breastfeeding,breastfeeding_ever_pct_sc,direct,CDC Breastfeeding Report Card 2022,https://restoredcdc.org/www.cdc.gov/breastfeeding-data/breastfeeding-report-card/index.html
+breastfeeding_equity,wic_breastfeeding_rate_black_infants,direct,SC DPH WIC Breastfeeding Fact Sheet,https://dph.sc.gov/sites/scdph/files/Library/00112-ENG-CR.pdf
+doula_policy,doula_medicaid_pilot_start,qualitative,SC Healthy Connections Medicaid,https://www.blackhealth.org/medicaid/south-carolina/
+doula_policy,doula_mandate_effective_date,qualitative,SC Bill 3108,https://www.scstatehouse.gov/sess126_2025-2026/bills/3108.htm
+group_prenatal_care_evidence,cradle_rct_ptb_group_care_pct,direct_rct,"CRADLE Trial, PMC9729420",https://pmc.ncbi.nlm.nih.gov/articles/PMC9729420/
+group_prenatal_care_evidence,picklesimer_2012_ptb_group_pct,direct_cohort,Picklesimer et al. 2012 AJOG,https://www.ajog.org/article/S0002-9378(12)00131-7/fulltext
+group_prenatal_care_evidence,gareau_2016_ptb_relative_risk_reduction_pct,direct_cohort,Gareau et al. 2016 MCHJ,https://centeringhealthcare.org/news/new-study-finds-medicaid-savings-and-better-outcomes-through-centeringpregnancy

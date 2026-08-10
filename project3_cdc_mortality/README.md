@@ -1,5 +1,11 @@
 # Project 3 — County-Level Mortality vs. Socioeconomic, Pollution & Healthcare-Access Factors
 
+## Charleston neonatal health package (NEW)
+
+**[`charleston_neonatal_health/`](charleston_neonatal_health/)** — Graduate-level, fully cited analysis of baby/neonatal health in Charleston County, SC (FIPS 45019) **and all 46 South Carolina counties**: preterm birth, low birthweight, infant/neonatal mortality, maternal mortality review findings, maternity care deserts/OB unit closures, racial disparities, WIC/Medicaid, NAS, breastfeeding, statewide statistical regression, literature-graded solutions, and a high-school paper guide. All reports are Word (`.docx`) files — push-ready email folder, zip `charleston_neonatal_health/` to share.
+
+---
+
 ## Goal
 For six causes of death / health outcomes, pull real county-level US data and
 cross-reference against socioeconomic status, air pollution, and healthcare

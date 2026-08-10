@@ -1,0 +1,249 @@
+{
+  "n_counties_analyzed": 43,
+  "note_on_suppressed_counties": "Allendale, Bamberg, McCormick excluded (County Health Rankings suppresses small-population measures); their infant mortality counts are also too small (<20 deaths/3yr) to be reliable per VMS footnotes.",
+  "top_predictors_of_imr": [
+    {
+      "outcome": "imr_2021_2023",
+      "outcome_label": "3-year average infant mortality rate per 1,000 live births (2021-2023)",
+      "predictor": "uninsured_pct",
+      "pearson_r": 0.337,
+      "approx_p_value": 0.0221,
+      "n_counties": 43,
+      "ols_slope": 67.8601,
+      "ols_r_squared": 0.113
+    },
+    {
+      "outcome": "imr_2021_2023",
+      "outcome_label": "3-year average infant mortality rate per 1,000 live births (2021-2023)",
+      "predictor": "broadband_access_pct",
+      "pearson_r": -0.226,
+      "approx_p_value": 0.138,
+      "n_counties": 43,
+      "ols_slope": -9.7191,
+      "ols_r_squared": 0.051
+    },
+    {
+      "outcome": "imr_2021_2023",
+      "outcome_label": "3-year average infant mortality rate per 1,000 live births (2021-2023)",
+      "predictor": "child_poverty_pct",
+      "pearson_r": 0.162,
+      "approx_p_value": 0.2931,
+      "n_counties": 43,
+      "ols_slope": 5.9931,
+      "ols_r_squared": 0.026
+    },
+    {
+      "outcome": "imr_2021_2023",
+      "outcome_label": "3-year average infant mortality rate per 1,000 live births (2021-2023)",
+      "predictor": "median_household_income",
+      "pearson_r": -0.146,
+      "approx_p_value": 0.343,
+      "n_counties": 43,
+      "ols_slope": -0.0,
+      "ols_r_squared": 0.021
+    },
+    {
+      "outcome": "imr_2021_2023",
+      "outcome_label": "3-year average infant mortality rate per 1,000 live births (2021-2023)",
+      "predictor": "income_inequality_ratio",
+      "pearson_r": -0.108,
+      "approx_p_value": 0.4851,
+      "n_counties": 43,
+      "ols_slope": -0.4546,
+      "ols_r_squared": 0.012
+    }
+  ],
+  "top_predictors_of_lbw": [
+    {
+      "outcome": "lbw_pct_2023",
+      "outcome_label": "Low birthweight percent of live births (2023)",
+      "predictor": "broadband_access_pct",
+      "pearson_r": -0.705,
+      "approx_p_value": 0.0,
+      "n_counties": 43,
+      "ols_slope": -25.648,
+      "ols_r_squared": 0.498
+    },
+    {
+      "outcome": "lbw_pct_2023",
+      "outcome_label": "Low birthweight percent of live births (2023)",
+      "predictor": "child_poverty_pct",
+      "pearson_r": 0.646,
+      "approx_p_value": 0.0,
+      "n_counties": 43,
+      "ols_slope": 20.1703,
+      "ols_r_squared": 0.417
+    },
+    {
+      "outcome": "lbw_pct_2023",
+      "outcome_label": "Low birthweight percent of live births (2023)",
+      "predictor": "median_household_income",
+      "pearson_r": -0.599,
+      "approx_p_value": 0.0,
+      "n_counties": 43,
+      "ols_slope": -0.0001,
+      "ols_r_squared": 0.358
+    },
+    {
+      "outcome": "lbw_pct_2023",
+      "outcome_label": "Low birthweight percent of live births (2023)",
+      "predictor": "income_inequality_ratio",
+      "pearson_r": 0.553,
+      "approx_p_value": 0.0,
+      "n_counties": 43,
+      "ols_slope": 1.9561,
+      "ols_r_squared": 0.305
+    },
+    {
+      "outcome": "lbw_pct_2023",
+      "outcome_label": "Low birthweight percent of live births (2023)",
+      "predictor": "unemployment_pct",
+      "pearson_r": 0.488,
+      "approx_p_value": 0.0003,
+      "n_counties": 43,
+      "ols_slope": 142.434,
+      "ols_r_squared": 0.238
+    }
+  ],
+  "highest_positive_residual_counties": [
+    {
+      "county": "Marion",
+      "imr_2021_2023": 15.3,
+      "predicted_imr": 6.137558821414408,
+      "residual": 9.162441178585592,
+      "uninsured_pct": 0.1242427067,
+      "child_poverty_pct": 0.359,
+      "maternity_access_flag": "desert_or_low",
+      "high_need_mvi_tertile": false
+    },
+    {
+      "county": "Chester",
+      "imr_2021_2023": 10.7,
+      "predicted_imr": 5.14980889423781,
+      "residual": 5.550191105762189,
+      "uninsured_pct": 0.1098438183,
+      "child_poverty_pct": 0.308,
+      "maternity_access_flag": "desert_or_low",
+      "high_need_mvi_tertile": false
+    },
+    {
+      "county": "Saluda",
+      "imr_2021_2023": 11.8,
+      "predicted_imr": 7.142070507781095,
+      "residual": 4.657929492218906,
+      "uninsured_pct": 0.1405082212,
+      "child_poverty_pct": 0.244,
+      "maternity_access_flag": "desert_or_low",
+      "high_need_mvi_tertile": false
+    },
+    {
+      "county": "Dillon",
+      "imr_2021_2023": 10.5,
+      "predicted_imr": 6.631962010929331,
+      "residual": 3.868037989070669,
+      "uninsured_pct": 0.131824417,
+      "child_poverty_pct": 0.346,
+      "maternity_access_flag": "desert_or_low",
+      "high_need_mvi_tertile": false
+    },
+    {
+      "county": "Georgetown",
+      "imr_2021_2023": 9.0,
+      "predicted_imr": 5.663825032479188,
+      "residual": 3.3361749675208117,
+      "uninsured_pct": 0.1183726614,
+      "child_poverty_pct": 0.228,
+      "maternity_access_flag": "low_access_ob_closed_2020",
+      "high_need_mvi_tertile": false
+    },
+    {
+      "county": "Oconee",
+      "imr_2021_2023": 9.2,
+      "predicted_imr": 6.618570663164319,
+      "residual": 2.58142933683568,
+      "uninsured_pct": 0.1330321871,
+      "child_poverty_pct": 0.201,
+      "maternity_access_flag": "full_access_or_not_flagged",
+      "high_need_mvi_tertile": false
+    },
+    {
+      "county": "Pickens",
+      "imr_2021_2023": 7.8,
+      "predicted_imr": 5.450469367474767,
+      "residual": 2.3495306325252328,
+      "uninsured_pct": 0.1156609266,
+      "child_poverty_pct": 0.176,
+      "maternity_access_flag": "full_access_or_not_flagged",
+      "high_need_mvi_tertile": false
+    },
+    {
+      "county": "Sumter",
+      "imr_2021_2023": 6.8,
+      "predicted_imr": 4.865122603958813,
+      "residual": 1.9348773960411867,
+      "uninsured_pct": 0.1062217333,
+      "child_poverty_pct": 0.239,
+      "maternity_access_flag": "full_access_or_not_flagged",
+      "high_need_mvi_tertile": false
+    }
+  ],
+  "lowest_residual_counties": [
+    {
+      "county": "Horry",
+      "imr_2021_2023": 3.8,
+      "predicted_imr": 7.533453939617579,
+      "residual": -3.733453939617579,
+      "uninsured_pct": 0.1468572805,
+      "child_poverty_pct": 0.198,
+      "maternity_access_flag": "full_access_or_not_flagged",
+      "high_need_mvi_tertile": false
+    },
+    {
+      "county": "Jasper",
+      "imr_2021_2023": 4.6,
+      "predicted_imr": 8.384369954688832,
+      "residual": -3.7843699546888327,
+      "uninsured_pct": 0.15877474,
+      "child_poverty_pct": 0.292,
+      "maternity_access_flag": "desert_or_low",
+      "high_need_mvi_tertile": false
+    },
+    {
+      "county": "Fairfield",
+      "imr_2021_2023": 0.0,
+      "predicted_imr": 4.3979692130941315,
+      "residual": -4.3979692130941315,
+      "uninsured_pct": 0.098282889,
+      "child_poverty_pct": 0.331,
+      "maternity_access_flag": "desert_or_low",
+      "high_need_mvi_tertile": false
+    },
+    {
+      "county": "Calhoun",
+      "imr_2021_2023": 0.0,
+      "predicted_imr": 4.913173354434667,
+      "residual": -4.913173354434667,
+      "uninsured_pct": 0.1069074233,
+      "child_poverty_pct": 0.243,
+      "maternity_access_flag": "desert_or_low",
+      "high_need_mvi_tertile": false
+    },
+    {
+      "county": "Marlboro",
+      "imr_2021_2023": 0.0,
+      "predicted_imr": 5.653085851186977,
+      "residual": -5.653085851186977,
+      "uninsured_pct": 0.1169662921,
+      "child_poverty_pct": 0.356,
+      "maternity_access_flag": "desert_or_low",
+      "high_need_mvi_tertile": false
+    }
+  ],
+  "methodology_caveats": [
+    "n\u224843 counties: modest sample size for regression; treat p-values as exploratory, not confirmatory.",
+    "P-values approximate (normal approximation to t-distribution), not a substitute for formal hypothesis testing.",
+    "3-year average IMR (2021-2023) used to reduce small-number instability, per VMS guidance that single-year county rates with \u226420 deaths are unreliable.",
+    "County Health Rankings measures are themselves modeled/lagged estimates (ACS 5-year, BRFSS small-area models), not real-time.",
+    "Ecological (county-level) correlation does not establish individual-level causation (ecological fallacy risk)."
+  ]
+}
